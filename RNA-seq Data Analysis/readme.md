@@ -29,10 +29,23 @@ tophat -p 1 -G $genes -o C1_R2 4 ${reads}/GSM794484_C1_R2_1.ss.fq ${reads}/GSM79
 tophat -p 1 -G $genes -o C2_R1 4 ${reads}/GSM794486_C2_R1_1.ss.fq ${reads}/GSM794486_C2_R1_2.ss.fq &
 tophat -p 1 -G $genes -o C2_R2 4 ${reads}/GSM794487_C2_R2_1.ss.fq ${reads}/GSM794487_C2_R2_2.ss.fq &
 ```
-Then we quit and save the script by typing: `:wq` Then we run the script by typing: `bash alignment.sh` <br />
+Next we quit and save the script by typing: `:wq` Then we run the script by typing: `bash alignment.sh` <br />
 After the alignment step is finished, we use Cufflink to quantify the gene expression <br />
+A template Cufflink command is like the following <br />
+`cufflink -p 1 -G path/to/genes.gtf -o path/to/outdir path/to/accepted_hits.bam`
+We can also write a shell script to execute the files all at once <br />
+```
+$ cd fpkm  # get into the fpkm folder
+$ vi fpkm.sh
+genes=/home/linux/ieng6/be183f/public/bengTutorial/index_gtf/genes4.gtf
+alignments=../alignments
 
-
-
-
+for condition in C1 C2; do
+for replicate in R1 R2; do
+   echo ${condition}_${replicate}
+   cufflinks -p 1 -G $genes -o ${condition}_${replicate} ${alignments}/${condition}_${replicate}/accepted_hits.bam
+done; done
+```
+We quit and save the script by typing: `:wq` Then we run the script by typing: `bash fpkm.sh` <br />
+Here, genes.fpkm_tracking and isoforms.fpkm_tracking contains gene expression values (measured as FPKM) at the gene and transcript levels.
 
