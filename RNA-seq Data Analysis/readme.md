@@ -49,3 +49,4 @@ done; done
 We quit and save the script by typing: `:wq` Then we run the script by typing: `bash fpkm.sh` <br />
 Here, genes.fpkm_tracking and isoforms.fpkm_tracking contains gene expression values (measured as FPKM) at the gene and transcript levels.
 
+##STAR-Kallisto Pipeline
