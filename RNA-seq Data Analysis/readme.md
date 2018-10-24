@@ -11,8 +11,9 @@ mkdir fpkm
 mkdir diff       
 ```
 
-Then we can use TOPHAT to align the reads to genes with the following template command <br />
-`tophat -p 1 -G /path/to/genes.gtf -o out/dir  path/to/genome/index* path/to/reads_R1.fastq path/to/reads_R1.fastq` <br />
+Then we can use TOPHAT to align the reads to the genome with the following template command <br />
+`tophat -p 1 -G /path/to/genes.gtf -o out/dir  path/to/genome/index path/to/reads_R1.fastq path/to/reads_R1.fastq` <br />
+The genome index used with TOPHAT should be bowtie2 index files.
 To align all the fastq files from the example data at the same time, we can create a shell script <br />
 ```
 cd alignments
@@ -30,7 +31,7 @@ tophat -p 1 -G $genes -o C2_R1 4 ${reads}/GSM794486_C2_R1_1.ss.fq ${reads}/GSM79
 tophat -p 1 -G $genes -o C2_R2 4 ${reads}/GSM794487_C2_R2_1.ss.fq ${reads}/GSM794487_C2_R2_2.ss.fq &
 ```
 Next we quit and save the script by typing: `:wq` Then we run the script by typing: `bash alignment.sh` <br />
-After the alignment step is finished, we use Cufflink to quantify the gene expression <br />
+After the alignment step is finished, we use Cufflink to quantify the gene expressions <br />
 A template Cufflink command is like the following <br />
 `cufflink -p 1 -G path/to/genes.gtf -o path/to/outdir path/to/accepted_hits.bam`
 We can also write a shell script to execute the files all at once <br />
@@ -50,3 +51,13 @@ We quit and save the script by typing: `:wq` Then we run the script by typing: `
 Here, genes.fpkm_tracking and isoforms.fpkm_tracking contains gene expression values (measured as FPKM) at the gene and transcript levels.
 
 ##STAR-Kallisto Pipeline
+We can also use STAR to align the reads to the genome. We need to first build index files that is compatible with STAR prior to the alignment step. To build the index, we can run the following template command <br />
+`STAR --runMode genomeGenerate --genomeDir path/to/starIndex --genomeFastaFiles path/to/genome.fa` <br />
+Then, we'll be ablt to execute the alignment step with the following template command <br />
+`STAR --genomeDir path/to/starIndex/ --readFilesIn path/to/read1 path/to/read2 --outFileNamePrefix output/` <br />
+After the mapping is finished, the mapping statistics can be viewed as `Log.final.out` and the detailed mapping results can be viewed at `Align.out.sam` <br />
+Besides Cufflinks, we can also use Kallisto to quantify the gene expressions directly from the raw fastq files. To do this, we need to build the index for Kallisto first with the following template command <br />
+`kallisto index -i path/to/output.index path/to/transcriptome.fa` <br />
+With index file built, we are able to quantify the gene expressions with the following template command <br />
+`kallisto quant -i path/to/output.index -o path/to/outDic path/to/read1.fastq path/to/read2.fastq` <br />
+The results can be viewed at `abundance.tsv` where gene expressions are quantified in terms of TPM values.
