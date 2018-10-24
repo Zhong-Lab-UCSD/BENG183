@@ -50,7 +50,7 @@ done; done
 We quit and save the script by typing: `:wq` Then we run the script by typing: `bash fpkm.sh` <br />
 Here, genes.fpkm_tracking and isoforms.fpkm_tracking contains gene expression values (measured as FPKM) at the gene and transcript levels.
 
-##STAR-Kallisto Pipeline
+## STAR-Kallisto Pipeline
 We can also use STAR to align the reads to the genome. We need to first build index files that is compatible with STAR prior to the alignment step. To build the index, we can run the following template command <br />
 `STAR --runMode genomeGenerate --genomeDir path/to/starIndex --genomeFastaFiles path/to/genome.fa` <br />
 Then, we'll be ablt to execute the alignment step with the following template command <br />
