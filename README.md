@@ -1,2 +1,4 @@
 # BENG183
-Lecture materials 
+Lecture materials
+
+Fall 2018 
