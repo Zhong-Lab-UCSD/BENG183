@@ -11,9 +11,10 @@ feel free to add more sections!
     3.3. [Predicting Treatment Response](#33)<br>
 4. [Evolving Precision Medicine](#4)
 5. [Conclusion](#5)
+6. [Reference](#6)
 
 
-## 1. Intro part<a name="1"></a>
+## 1. Intro?<a name="1"></a>
 
 ## 3. Data Analysis<a name="3"></a>
 #### 1)
@@ -52,7 +53,7 @@ The detailed steps are as follows:
 
 
 
-## References
+## 6. References<a name="6"></a>
 
 Riley RD, Hayden JA, Steyerberg EW, et al. Prognosis Research Strategy (PROGRESS) 2: prognostic factor research. PLoS Med 2013; 10: e1001380.
 
