@@ -8,15 +8,15 @@
 ##### 4. ...
 ##### i. Predicting Treatment Response
 ##### i+1. Evolving Precision Medicine
-##### Conclusion
+##### i+2. Conclusion
 
-## 1. Introduction to Precision Medicine
+## 1. Introduction to Precision Medicine?
 
 
 ## i. Predicting Treatment Response
 
 ## i+1. Evolving Precision Medicine
 
-## Conclusion
+## i+2. Conclusion
 
 ## References
