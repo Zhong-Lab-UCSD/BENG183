@@ -3,7 +3,8 @@
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
 1. [Intro?](#1)
-2. [blah](#2)
+2. [sth about deep phenotyping?](#2)
+feel free to add more sections!
 3. [Data Analysis](#3)<br>
     3.1. [Preprocessing and Data Mining](#31)<br>
     3.2. [Diagnostic and Prognostic Models](#32)<br>
