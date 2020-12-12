@@ -2,18 +2,17 @@
 # Precision Medicine(change to something more descriptive later)
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
-##### 1. Introduction to Precision Medicine?
-##### 2. 
-##### 3. 
-##### 4. ...
-##### i. Predicting Treatment Response
-##### i+1. Evolving Precision Medicine
-##### i+2. Conclusion
-
-## 1. Intro part
+1. [Introduction](#1)
+...
+5. [Predicting Treatment Response](#5)
+6. [Evolving Precision Medicine](#6)
+7. [Conclusion](#7)
 
 
-## i. Predicting Treatment Response
+## 1. Intro part<a name="1"></a>
+
+
+## 5. Predicting Treatment Response<a name="5"></a>
 
 After developing diagnostic and prognostic models from the previous step, there is a need of asssessing variables that define a novel taxonomy with their relevance in predicting treatment response. There are two strategies to develop models that predict treatment response.
 
@@ -29,7 +28,7 @@ This process of building prediction models involves generating further knowledge
 
 In addition to the feedback, dissemination and communication of the taxonomy and models with the clinical and scientific communities, for instance, to provide utilizable algorithms for clinical practices.
 
-## i+1. Evolving Precision Medicine
+## 6. Evolving Precision Medicine<a name="6"></a>
 
 The figure below shows cycles of precision medicine and its subsequent outcome.
 
@@ -43,7 +42,7 @@ The detailed steps are as follows:
 2. In later cycles, define more specific groups of patients using more in-depth data that was obtained from the previous cycle as the data from each cycle is fed back to the next cycle of patient assessment. 
 3. Eventually, this feedback loops may allow the final cycles to target individual patient with specific data profile.
 
-## i+2. Conclusion
+## 7. Conclusion<a name="7"></a>
 
 
 
