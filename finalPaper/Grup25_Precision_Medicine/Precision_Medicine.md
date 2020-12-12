@@ -27,7 +27,7 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ## i+1. Evolving Precision Medicine
 
-The figure below shows cycles of precision medicine and its subsequent result.
+The figure below shows cycles of precision medicine and its subsequent outcome.
 
 ![alt text](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
 
@@ -38,6 +38,8 @@ The detailed steps are as follows:
 1. In the first cycles, categorize patients into diagnostic/prognostic groups based on obvious charateristics.
 2. In later cycles, define more specific groups of patients using more in-depth data that was obtained from the previous cycle as the data from each cycle is fed back to the next cycle of patient assessment. 
 3. Eventually, this feedback loops may allow the final cycles to target individual patient with specific data profile.
+
+![alt text](https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=5989714_nihms971591f2.jpg)
 
 ## i+2. Conclusion
 
