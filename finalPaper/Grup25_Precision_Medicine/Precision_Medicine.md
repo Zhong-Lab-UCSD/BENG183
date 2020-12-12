@@ -10,14 +10,14 @@
 ##### i+1. Evolving Precision Medicine
 ##### i+2. Conclusion
 
-## 1. Introduction to Precision Medicine?
+## 1. Intro part
 
 
 ## i. Predicting Treatment Response
 
 After developing diagnostic and prognostic models from the previous step, there is a need of asssessing variables that define a novel taxonomy with their relevance in predicting treatment response. There are two strategies to develop models that predict treatment response.
 
-- Prediction models can be built on the diagonostic and prognostic models from the previous stage as prognostic factors may act as the natural variables to consider when developing prediction models. For instance, epidermal growth factor receptor tyrosine kinase status acts as a prognostic factor for survival in patients with nonsmall cell lung cancer and a predictive factor for response to the tyrosine kinase inhibitor gefitinib as first-line treatment at the same time [Riley RD(will change later aftering sorting&numbering sources].
+- Prediction models can be built on the diagnostic and prognostic models from the previous stage as prognostic factors may act as the natural variables to consider when developing prediction models. For instance, epidermal growth factor receptor tyrosine kinase status acts as a prognostic factor for survival in patients with nonsmall cell lung cancer and a predictive factor for response to the tyrosine kinase inhibitor gefitinib as first-line treatment at the same time [Riley RD(will change later aftering sorting&numbering sources].
 
 - The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the first clinical trials that used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment, the use of mepolizumab was associated with a significant reductionin blood and sputum eosinophils, but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar P].
 
@@ -27,7 +27,17 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ## i+1. Evolving Precision Medicine
 
+The figure below shows cycles of precision medicine and its subsequent result.
+
 ![alt text](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
+
+As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagonotic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at higher resolution. 
+
+The detailed steps are as follows:
+
+1. In the first cycles, categorize patients into diagnostic/prognostic groups based on obvious charateristics.
+2. In later cycles, define more specific groups of patients using more in-depth data that was obtained from the previous cycle as the data from each cycle is fed back to the next cycle of patient assessment. 
+3. Eventually, this feedback loops may allow the final cycles to target individual patient with specific data profile.
 
 ## i+2. Conclusion
 
@@ -38,3 +48,6 @@ Riley RD, Hayden JA, Steyerberg EW, et al. Prognosis Research Strategy (PROGRESS
 Flood-Page P, Swenson C, Faiferman I, et al. A study to evaluate safety and efficacy of mepolizumab in patients with moderate persistent asthma. Am J Respir Crit Care Med 2007; 176: 1062–1071.
 
 Haldar P, Brightling CE, Hargadon B, et al. Mepolizumab and exacerbations of refractory eosinophilic asthma. N Engl J Med 2009; 360: 973–984.
+
+Inke R. König, Oliver Fuchs, Gesine Hansen, Erika von Mutius, Matthias V. Kopp
+European Respiratory Journal Oct 2017, 50 (4) 1700391; DOI: 10.1183/13993003.00391-2017
