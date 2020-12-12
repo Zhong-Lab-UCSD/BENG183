@@ -21,7 +21,7 @@ After developing diagnostic and prognostic models from the previous step, there 
 
 - The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the first clinical trials that used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment, the use of mepolizumab was associated with a significant reductionin blood and sputum eosinophils, but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar P].
 
-Below is an illustration of applying different treatment, as known as "tailored medicine", to categorized groups to increase efficiency of treatment based on a prediction model.
+Below is an illustration of applying different treatment, also known as "tailored medicine", to categorized groups to increase efficiency of treatment based on a prediction model.
 
 ![groups](https://mh1042yko1f3sh26m19pxzy1-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Precision-medicine.jpg)
 
