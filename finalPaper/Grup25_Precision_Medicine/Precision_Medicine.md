@@ -51,10 +51,10 @@ The detailed steps are as follows:
 
 ## 5. Conclusion<a name="5"></a>
 
-As seen in the previous section on the continual evolution of precision medicine, precision medicine should be viewed as the continuous process of feedback loops rather than a steady state or a specific output from the research with an endpoint. 
+As seen in the previous section on the continual evolution of precision medicine, precision medicine should be viewed as the continuous process of feedback loops rather than a steady state or a specific output from the research with an endpoint. In this context, tailored medicine from resulting from new strafications can be considerd as a makeshift product of the process that will generate new data for the next cycle, thus further increasing the precision. 
 
 Once again, the ultimate goal of precision medicine is the most effective treatment for 
-the individual and to get closer to this goal, the efforts to be even more precise and individualistic are ongoing. 
+the individual. To step closer to this goal, the ongoing efforts to be even more precise and individualistic, newly-gained knowledge, and new data sources would be necessary.
 
 ## 6. References<a name="6"></a>
 
