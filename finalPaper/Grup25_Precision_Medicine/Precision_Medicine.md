@@ -56,7 +56,7 @@ As seen in the previous section on the continual evolution of precision medicine
 Once again, the ultimate goal of precision medicine is the most effective treatment for 
 the individual patient. To step closer to this goal, an ongoing efforts to be even more precise and individualistic, newly-gained scientific and clinical knowledge, and new data sources would be necessary.
 
-## 6. References<a name="6"></a>
+## 6. Reference<a name="6"></a>
 
 Riley RD, Hayden JA, Steyerberg EW, et al. Prognosis Research Strategy (PROGRESS) 2: prognostic factor research. PLoS Med 2013; 10: e1001380.
 
