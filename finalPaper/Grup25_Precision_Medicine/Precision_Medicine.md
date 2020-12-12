@@ -1,5 +1,5 @@
 
-# Precision Medicine(change to something more descriptive later)
+# The Process of Precision Medicine
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
 1. [Intro?](#1)
@@ -45,16 +45,16 @@ As seen in the figure, the cycle of patients assessment(deep phenotyping), data 
 
 The detailed steps are as follows:
 
-1. In the first cycles, categorize patients into diagnostic/prognostic groups based on obvious charateristics.
-2. In later cycles, define more specific groups of patients using more in-depth data that was obtained from the previous cycle as the data from each cycle is fed back to the next cycle of patient assessment. 
+1. In the first cycles, patients are categorized into diagnostic/prognostic groups based on obvious charateristics.
+2. In later cycles, more specific groups of patients are defined using more in-depth data that was obtained from the previous cycle as the data from each cycle is fed back to the next cycle of patient assessment. 
 3. Eventually, this feedback loops may allow the final cycles to target individual patient with specific data profile.
 
 ## 5. Conclusion<a name="5"></a>
 
-As seen in the previous section on the continual evolution of precision medicine, precision medicine should be viewed as the continuous process of feedback loops rather than a steady state or a specific output from the research with an endpoint. In this context, tailored medicine from resulting from new strafications can be considerd as a makeshift product of the process that will generate new data for the next cycle, thus further increasing the precision. 
+As seen in the previous section on the continual evolution of precision medicine, precision medicine should be viewed as the continuous process of feedback loops rather than a steady state with an end-point or a specific output from the research. In this context, tailored or stratified medicine from resulting from new strafications can be considerd as a makeshift product of the process that will generate new data for the next cycle, thus further increasing the precision. 
 
 Once again, the ultimate goal of precision medicine is the most effective treatment for 
-the individual. To step closer to this goal, the ongoing efforts to be even more precise and individualistic, newly-gained knowledge, and new data sources would be necessary.
+the individual patient. To step closer to this goal, an ongoing efforts to be even more precise and individualistic, newly-gained scientific and clinical knowledge, and new data sources would be necessary.
 
 ## 6. References<a name="6"></a>
 
