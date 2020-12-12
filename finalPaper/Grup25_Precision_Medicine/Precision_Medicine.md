@@ -17,6 +17,8 @@
 
 ## i+1. Evolving Precision Medicine
 
+![alt text](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
+
 ## i+2. Conclusion
 
 ## References
