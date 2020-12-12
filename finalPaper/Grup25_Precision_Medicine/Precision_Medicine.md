@@ -11,7 +11,7 @@ feel free to add more sections!
     3.3. [Predicting Treatment Response](#33)<br>
 4. [Evolving Precision Medicine](#4)
 5. [Conclusion](#5)
-6. [Reference](#6)
+    5.1. [Reference](#51)<br>
 
 
 ## 1. Intro?<a name="1"></a>
@@ -51,9 +51,12 @@ The detailed steps are as follows:
 
 ## 5. Conclusion<a name="5"></a>
 
+As seen in the previous section on the continual evolution of precision medicine, precision medicine should be viewed as the continuous process of feedback loops rather than a steady state or a specific output from the research with an endpoint. 
 
+Once again, the ultimate goal of precision medicine is the most effective treatment for 
+the individual and to get closer to this goal, the efforts to be even more precise and individualistic are ongoing. 
 
-## 6. References<a name="6"></a>
+#### 1) References<a name="61"></a>
 
 Riley RD, Hayden JA, Steyerberg EW, et al. Prognosis Research Strategy (PROGRESS) 2: prognostic factor research. PLoS Med 2013; 10: e1001380.
 
