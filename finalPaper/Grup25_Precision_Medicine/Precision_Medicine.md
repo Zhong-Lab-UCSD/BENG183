@@ -17,7 +17,7 @@
 
 (TODO) Most medical treatments are designed for the "average patient" as a one-size-fits-all-approach, which may be successful for some patients but not for others. 
 
-#### 1) Definition<a name="11"></a>
+### 1) Definition<a name="11"></a>
 
 Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.' [1,4] 
 
@@ -34,7 +34,7 @@ Figure 1: In the left diagram, colon cancer patients are clustered into one grou
 (TODO) FIgure2 Description
 
 ## 2. Deep Phenotyping<a name="2"></a>
-#### 1) Importance of Phenotype<a name="21"></a>
+### 1) Importance of Phenotype<a name="21"></a>
 
 The word phenotype can be used differently in biology versus medicine. In biology, ‘phenotype’ is collection of observable physical properties of an organism, including the organism's appearance, development, behavior, and even characteristics such as gene expression profiles in response to environmental cues. In medical context, however, ‘phenotype’ is deviation from normal morphology, physiology, or behavior. When physician makes note of patient’s phenotype, the physician is doing so by taking medical history, performing physical examination, diagnostic imaging, blood tests, and other psychological tests. [3]
 
@@ -43,19 +43,19 @@ This is where precise phenotype information comes into play. As physician makes 
 ![f3](https://www.ahajournals.org/cms/asset/7d41d41d-df72-4af2-ae28-a3d97454ab16/1302fig05.gif)
 Figure 3: Individuals with the same endophenotype, such as hypertension, can have different molecular phenotypes – resulting in different risk levels. Molecular phenotyping determines patients have different treatment responses as well.
 
-#### 2) Why "Deep" Phenotyping?<a name="22"></a>
+### 2) Why "Deep" Phenotyping?<a name="22"></a>
 
 The major problem with current phenotyping regime is sloppy or imprecise descriptions of phenotypic descriptions in medical publications. For instance, “still walking after 25 years of onset” is definitely a phenotypic description, yet it is unclear what the physician observed in the patient as such descriptions are likely to evoke different ideas for different readers depending on personal experience and imagination. Furthermore, the current gene mutation database has very little to no phenotypic information. Other than the fact that the patient has that mutagen. While this information is indeed important for determining pathogenicity, it is devoid of natural history of the disease – which is very important clinically in understanding the spectrum of complications with the disease, or genotype-phenotype correlations. Deep phenotyping offers solutions for current challenges, including semantics and technical standards for phenotype and disease data. Deep phenotyping is defined as precise and comprehensive analysis of phenotypic abnormalities in which individual components of individual components of the phenotype are observed and described. [3] Figure 4 shows precision medicine approach to phenotyping; even the individuals with same endophenotype may are biologically distinct and encompass different disease profiles. [5]
 
 ![f4](https://www.ahajournals.org/cms/asset/2e0cefe8-d12c-4959-bc13-b509a92e2a34/1302fig01.gif)
 Figure 4: Individuals undergo deep phenotyping process with data analysis performed using network analysis. This is deep phenotyping, because individuals are classified beyond their endophenotypes. Such methodology optimizes identification of biomarkers, clinical trials, and prognostication of disease.
 
-#### 3) Processing Deep Phenotyping Data<a name="23"></a>
+### 3) Processing Deep Phenotyping Data<a name="23"></a>
 
 ## 3. Data Analysis<a name="3"></a>
-#### 1)
-#### 2)
-#### 3) Predicting Treatment Response<a name="33"></a>
+### 1)
+### 2)
+### 3) Predicting Treatment Response<a name="33"></a>
 
 After developing diagnostic and prognostic models from the previous step, there is a need for assessing variables that define a novel taxonomy with their relevance in predicting treatment response. There are two strategies to develop models that predict treatment response.
 
