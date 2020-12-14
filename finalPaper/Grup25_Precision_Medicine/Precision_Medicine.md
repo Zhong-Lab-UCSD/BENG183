@@ -29,11 +29,11 @@ The focus of applied definitions is moving away from classical 'signs-and-sympto
 
 ### 2) Framework of Precision Medicine Process<a name="12"></a>
 
-(TODO)The framework of precision medicine is number of feedback loops, with no steady-end point. Each cycle is further trimming of patients for optimal treatment. 
+The framework of precision medicine is a process made up of number of feedback loops, with no steady-end point. Each cycle is an attempt to make the process more precise with more stratification of patients. The data assessed in the patients are used to try to develop clinically relevant models, and results of these analyses then inform the further assessment of patients as an evolving result.  
 
 ![f2](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
 
-###### (TODO) Figure 2 Description
+###### Figure 2: This diagram shows the process of precision medicine. In the deep phenotyping stage, data are gathered and forwarded to tracks 1-3, which are clinical data assessment steps. In track 1, data are preprocessed and explored for previously unknown structure with data mining techniques, such as clustering analysis to derive subgroup of samples. This step also composes of denoise and baseline correction and variable selection. Track 2 forecasts clinically relevant outcome as the model after number of feedback loops. Track 3 predicts treatment response and generates further knowledge about the treatment. This step also utilizes feedback to patient phenotyping results. Results from track 1-3 are fed back to deep phenotyping stage for subsequent assessments. 
 
 ## 2. Deep Phenotyping<a name="2"></a>
 ### 1) Importance of Phenotype<a name="21"></a>
@@ -55,6 +55,8 @@ The major problem with current phenotyping regime is sloppy or imprecise descrip
 ##### Figure 4: Individuals undergo deep phenotyping process with data analysis performed using network analysis. This is deep phenotyping, because individuals are classified beyond their endophenotypes. Such methodology optimizes identification of biomarkers, clinical trials, and prognostication of disease.
 
 ### 3) Processing Deep Phenotyping Data<a name="23"></a>
+
+Conversion of deep phenotyping data into tangible therapeutic utility poses number of challenges yet to be solved. First, computational environments for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important, however, is the integration of the two. For example, next-Generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information are critical in generating the data in clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity. 
 
 ## 3. Data Analysis<a name="3"></a>
 ### 1)
