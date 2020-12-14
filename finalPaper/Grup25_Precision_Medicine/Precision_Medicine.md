@@ -2,7 +2,7 @@
 # The Process of Precision Medicine
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
-1. [Introduction](#1)
+1. [What is Precision Medicine?](#1)
 2. [Deep Phenotyping](#2)
 3. [Data Analysis](#3)<br>
     3.1. [Preprocessing and Data Mining](#31)<br>
@@ -13,11 +13,11 @@
 6. [References](#6)
 
 
-## 1. Introduction<a name="1"></a>
+## 1. What is Precision Medicine?<a name="1"></a>
 
 (TODO) Most medical treatments are designed for the "average patient" as a one-size-fits-all-approach, which may be successful for some patients but not for others. 
 
-#### 1) What is Precision Medicine?<a name="11"></a>
+#### 1) Definition<a name="11"></a>
 
 Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.' [1,4] 
 
@@ -26,7 +26,7 @@ The focus of applied definitions is moving away from classical 'signs-and-sympto
 ![f1](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
 Figure 1: In the left diagram, colon cancer patients are clustered into one group and give the same treatment, because they were treated as one group from the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group are divided into disease subgroups with more precise and validated phenotypic recognition or better understanding of the causal pathways. 
 
-#### 2) Framework off Precision Medicine Process<a name="12"></a>
+#### 2) Framework of Precision Medicine Process<a name="12"></a>
 
 (TODO)The framework of precision medicine is number of feedback loops, with no steady-end point. Each cycle is further trimming of patients for optimal treatment. 
 
