@@ -18,6 +18,9 @@
 (EDIT!) Most medical treatments are designed for the "average patient" as a one-size-fits-all-approach, which may be successful for some patients but not for others. 
 
 #### 1) Definition of precision medicine<a name="11"></a>
+
+![PM0](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
+
 Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.' The focus of applied definitions is moving away from classical 'signs-and-symptoms' approach or 'population approach' into 'N of 1 approach' in which each patient is an entire trial as a single case study from N number of individuals within a population. 
 
 ## 2. Deep Phenotyping<a name="2"></a>
