@@ -2,9 +2,8 @@
 # The Process of Precision Medicine
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
-1. [Intro?](#1)
-2. [sth about deep phenotyping?](#2)
-feel free to add more sections!
+1. [Introduction](#1)
+2. [Deep Phenotyping](#2)
 3. [Data Analysis](#3)<br>
     3.1. [Preprocessing and Data Mining](#31)<br>
     3.2. [Diagnostic and Prognostic Models](#32)<br>
@@ -14,7 +13,13 @@ feel free to add more sections!
 6. [Reference](#6)
 
 
-## 1. Intro?<a name="1"></a>
+## 1. Introduction<a name="1"></a>
+#### 1) Definition of precision medicine<a name="11"></a>
+Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.' The focus of applied definitions is moving away from classical 'signs-and-symptoms' approach or 'population approach' into 'N of 1 approach' in which each patient is an entire trial as a single case study from N number of individuals within a population. 
+
+## 2. Deep Phenotyping<a name="2"></a>
+#### 1) Deep phenotyping as process
+#### 2) Processing deep phenotyping data
 
 ## 3. Data Analysis<a name="3"></a>
 #### 1)
