@@ -2,8 +2,13 @@
 # The Process of Precision Medicine
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
-1. [What is Precision Medicine?](#1)
-2. [Deep Phenotyping](#2)
+1. [What is Precision Medicine?](#1)<br>
+    1.1. [Definition](#11)<br>
+    1.2. [Framework of Precision Medicine Process](#12)<br>
+2. [Deep Phenotyping](#2)<br>
+    2.1. [Importance of Phenotype](#21)<br>
+    2.2. [Why "Deep" Phenotyping?](#22)<br>
+    2.3. [Processing Deep Phenotyping Data](#23)<br>
 3. [Data Analysis](#3)<br>
     3.1. [Preprocessing and Data Mining](#31)<br>
     3.2. [Diagnostic and Prognostic Models](#32)<br>
