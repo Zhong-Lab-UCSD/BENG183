@@ -76,3 +76,5 @@ European Respiratory Journal Oct 2017, 50 (4) 1700391; DOI: 10.1183/13993003.003
 
 the image-- “What Is Precision Medicine and How Can It Help Fix Healthcare.” ReferralMD, ReferralMD, 11 Dec. 2018, getreferralmd.com/2018/02/precision-medicine-can-help-fix-healthcare/. 
 https://getreferralmd.com/2018/02/precision-medicine-can-help-fix-healthcare/
+
+National Research Council, Committee on A Framework for Developing a New Taxonomy of Disease. Toward Precision Medicine: Building a Knowledge Network for Biomedical Research and a New Taxonomy of Disease. National Academies Press; Washington DC: 2011.
