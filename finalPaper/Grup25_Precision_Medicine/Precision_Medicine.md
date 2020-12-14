@@ -25,6 +25,7 @@ Precision medicine is personalized treatment strategies on the basis of genetic,
 
 ## 2. Deep Phenotyping<a name="2"></a>
 #### 1) Deep phenotyping as process
+![dP](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
 #### 2) Processing deep phenotyping data
 
 ## 3. Data Analysis<a name="3"></a>
