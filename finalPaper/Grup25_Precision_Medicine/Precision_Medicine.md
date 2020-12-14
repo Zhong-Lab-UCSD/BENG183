@@ -24,7 +24,8 @@ Precision medicine is personalized treatment strategies on the basis of genetic,
 The focus of applied definitions is moving away from classical 'signs-and-symptoms’ approach or 'population’ approach into 'N of 1’ approach in which each patient is an entire trial as a single case study from N number of individuals within a population. Figure 1 shows the difference between two approaches with same group of patients. Comprehensive study of such subclasses ultimately depends on computational resources to capture, store and exchange phenotypic data, and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information. [3]
 
 ![f1](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
-Figure 1: In the left diagram, colon cancer patients are clustered into one group and give the same treatment, because they were treated as one group from the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group are divided into disease subgroups with more precise and validated phenotypic recognition or better understanding of the causal pathways. 
+
+##### Figure 1: In the left diagram, colon cancer patients are clustered into one group and give the same treatment, because they were treated as one group from the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group are divided into disease subgroups with more precise and validated phenotypic recognition or better understanding of the causal pathways. 
 
 ### 2) Framework of Precision Medicine Process<a name="12"></a>
 
@@ -32,7 +33,7 @@ Figure 1: In the left diagram, colon cancer patients are clustered into one grou
 
 ![f2](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
 
-(TODO) FIgure2 Description
+###### (TODO) Figure 2 Description
 
 ## 2. Deep Phenotyping<a name="2"></a>
 ### 1) Importance of Phenotype<a name="21"></a>
@@ -43,7 +44,7 @@ This is where precise phenotype information comes into play. As physician makes 
 
 ![f3](https://www.ahajournals.org/cms/asset/7d41d41d-df72-4af2-ae28-a3d97454ab16/1302fig05.gif)
 
-Figure 3: Individuals with the same endophenotype, such as hypertension, can have different molecular phenotypes – resulting in different risk levels. Molecular phenotyping determines patients have different treatment responses as well.
+##### Figure 3: Individuals with the same endophenotype, such as hypertension, can have different molecular phenotypes – resulting in different risk levels. Molecular phenotyping determines patients have different treatment responses as well.
 
 ### 2) Why "Deep" Phenotyping?<a name="22"></a>
 
@@ -51,7 +52,7 @@ The major problem with current phenotyping regime is sloppy or imprecise descrip
 
 ![f4](https://www.ahajournals.org/cms/asset/2e0cefe8-d12c-4959-bc13-b509a92e2a34/1302fig01.gif)
 
-Figure 4: Individuals undergo deep phenotyping process with data analysis performed using network analysis. This is deep phenotyping, because individuals are classified beyond their endophenotypes. Such methodology optimizes identification of biomarkers, clinical trials, and prognostication of disease.
+##### Figure 4: Individuals undergo deep phenotyping process with data analysis performed using network analysis. This is deep phenotyping, because individuals are classified beyond their endophenotypes. Such methodology optimizes identification of biomarkers, clinical trials, and prognostication of disease.
 
 ### 3) Processing Deep Phenotyping Data<a name="23"></a>
 
