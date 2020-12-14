@@ -10,7 +10,7 @@
     3.3. [Predicting Treatment Response](#33)<br>
 4. [Evolving Precision Medicine](#4)
 5. [Conclusion](#5)
-6. [Reference](#6)
+6. [References](#6)
 
 
 ## 1. Introduction<a name="1"></a>
