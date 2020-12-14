@@ -15,18 +15,42 @@
 
 ## 1. Introduction<a name="1"></a>
 
-(EDIT!) Most medical treatments are designed for the "average patient" as a one-size-fits-all-approach, which may be successful for some patients but not for others. 
+(TODO) Most medical treatments are designed for the "average patient" as a one-size-fits-all-approach, which may be successful for some patients but not for others. 
 
-#### 1) Definition of precision medicine<a name="11"></a>
+#### 1) What is Precision Medicine?<a name="11"></a>
 
-![PM0](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
+Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.' [1,4] 
 
-Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.' The focus of applied definitions is moving away from classical 'signs-and-symptoms' approach or 'population approach' into 'N of 1 approach' in which each patient is an entire trial as a single case study from N number of individuals within a population. 
+The focus of applied definitions is moving away from classical 'signs-and-symptoms’ approach or 'population’ approach into 'N of 1’ approach in which each patient is an entire trial as a single case study from N number of individuals within a population. Figure 1 shows the difference between two approaches with same group of patients. Comprehensive study of such subclasses ultimately depends on computational resources to capture, store and exchange phenotypic data, and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information. [3]
+
+![f1](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
+Figure 1: In the left diagram, colon cancer patients are clustered into one group and give the same treatment, because they were treated as one group from the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group are divided into disease subgroups with more precise and validated phenotypic recognition or better understanding of the causal pathways. 
+
+#### 2) Framework off Precision Medicine Process<a name="12"></a>
+
+(TODO)The framework of precision medicine is number of feedback loops, with no steady-end point. Each cycle is further trimming of patients for optimal treatment. 
+
+![f2](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
+(TODO) FIgure2 Description
 
 ## 2. Deep Phenotyping<a name="2"></a>
-#### 1) Deep phenotyping as process
-![dP](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
-#### 2) Processing deep phenotyping data
+#### 1) Importance of Phenotype<a name="21"></a>
+
+The word phenotype can be used differently in biology versus medicine. In biology, ‘phenotype’ is collection of observable physical properties of an organism, including the organism's appearance, development, behavior, and even characteristics such as gene expression profiles in response to environmental cues. In medical context, however, ‘phenotype’ is deviation from normal morphology, physiology, or behavior. When physician makes note of patient’s phenotype, the physician is doing so by taking medical history, performing physical examination, diagnostic imaging, blood tests, and other psychological tests. [3]
+
+This is where precise phenotype information comes into play. As physician makes note of patient’s phenotypes, the physician is making a diagnosis for the patient’s disease – making a hypothesis of what it may or may not be and provides treatment which may or may not work. Making a diagnosis, therefore, is perhaps the most important task in treating a disease, but it is the most challenging task especially for the cases of rare diseases of which 8000 diseases are yet to be classified. Today, major clinical problems arise from delayed or inaccurate diagnosis, treatment and unnecessary procedures that result in patients’ psychological burdens and unnecessary expenses. [3] To prevent complications and set forth effective treatments from making correct prognosis, full spectrum of phenotypic abnormalities is absolutely critical for improving care quality while reducing the need for unnecessary diagnostic testing and therapies. [2] Figure 3 shows importance of phenotype and its molecular network underpinning. Even with the same endophenotype, risk varies between individuals, because their phenotype ultimately varies in the molecular level. 
+
+![f3](https://www.ahajournals.org/cms/asset/7d41d41d-df72-4af2-ae28-a3d97454ab16/1302fig05.gif)
+Figure 3: Individuals with the same endophenotype, such as hypertension, can have different molecular phenotypes – resulting in different risk levels. Molecular phenotyping determines patients have different treatment responses as well.
+
+#### 2) Why "Deep" Phenotyping?<a name="22"></a>
+
+The major problem with current phenotyping regime is sloppy or imprecise descriptions of phenotypic descriptions in medical publications. For instance, “still walking after 25 years of onset” is definitely a phenotypic description, yet it is unclear what the physician observed in the patient as such descriptions are likely to evoke different ideas for different readers depending on personal experience and imagination. Furthermore, the current gene mutation database has very little to no phenotypic information. Other than the fact that the patient has that mutagen. While this information is indeed important for determining pathogenicity, it is devoid of natural history of the disease – which is very important clinically in understanding the spectrum of complications with the disease, or genotype-phenotype correlations. Deep phenotyping offers solutions for current challenges, including semantics and technical standards for phenotype and disease data. Deep phenotyping is defined as precise and comprehensive analysis of phenotypic abnormalities in which individual components of individual components of the phenotype are observed and described. [3] Figure 4 shows precision medicine approach to phenotyping; even the individuals with same endophenotype may are biologically distinct and encompass different disease profiles. [5]
+
+![f4](https://www.ahajournals.org/cms/asset/2e0cefe8-d12c-4959-bc13-b509a92e2a34/1302fig01.gif)
+Figure 4: Individuals undergo deep phenotyping process with data analysis performed using network analysis. This is deep phenotyping, because individuals are classified beyond their endophenotypes. Such methodology optimizes identification of biomarkers, clinical trials, and prognostication of disease.
+
+#### 3) Processing Deep Phenotyping Data<a name="23"></a>
 
 ## 3. Data Analysis<a name="3"></a>
 #### 1)
