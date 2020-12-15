@@ -207,7 +207,7 @@ After developing diagnostic and prognostic models from the previous step, there 
 
 ![groups](https://mh1042yko1f3sh26m19pxzy1-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Precision-medicine.jpg)
 
-##### Figure 5: The figure above is an illustration of applying different treatments, also known as "tailored medicine", to categorized groups to increase the effectiveness of treatment based on a prediction model.
+##### Figure 8: The figure above is an illustration of applying different treatments, also known as "tailored medicine", to categorized groups to increase the effectiveness of treatment based on a prediction model.
 
   
 
@@ -223,7 +223,7 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
   
 
-##### Figure 6: The figure below shows repeated cycles of precision medicine and its subsequent outcome.
+##### Figure 9: The figure below shows repeated cycles of precision medicine and its subsequent outcome.
 
 ![evol](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
 
