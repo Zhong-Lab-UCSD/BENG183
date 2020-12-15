@@ -1,6 +1,7 @@
 
 # The Process of Precision Medicine
-### by Soyeon Kim, Hwayeon Lee, Meixian Wu
+### Authors: Soyeon Kim, Hwayeon Lee, Meixian Wu
+### BENG 183 Applied Genomic Technologies
 
 1. [What is Precision Medicine?](#1)<br>
     1.1. [Definition](#11)<br>
