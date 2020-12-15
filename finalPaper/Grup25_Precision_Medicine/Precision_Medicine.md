@@ -73,7 +73,7 @@ After developing diagnostic and prognostic models from the previous step, there 
 - The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the first clinical trials that used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment, the use of mepolizumab was associated with a significant reduction blood and sputum eosinophils but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar P].
 
 ![groups](https://mh1042yko1f3sh26m19pxzy1-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Precision-medicine.jpg)
-##### Figure 4: The figure above is an illustration of applying different treatments, also known as "tailored medicine", to categorized groups to increase the effectiveness of treatment based on a prediction model.
+##### Figure 5: The figure above is an illustration of applying different treatments, also known as "tailored medicine", to categorized groups to increase the effectiveness of treatment based on a prediction model.
 
 This process of building prediction models involves generating further knowledge about the disease and treatment from the diagnotics and prognostics models or the data itself. The findings from this process, in the form of data, would be fed back to the phenotyping of patients to further adjust the clinical trial that could more precisely show the effectiveness of the treatment. 
 
@@ -81,7 +81,7 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ## 4. Evolving Precision Medicine<a name="4"></a>
 
-##### Figure 5: The figure below shows repeated cycles of precision medicine and its subsequent outcome.
+##### Figure 6: The figure below shows repeated cycles of precision medicine and its subsequent outcome.
 ![evol](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
 
 As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnotic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution. 
