@@ -5,22 +5,16 @@
 1. [What is Precision Medicine?](#1)<br>
 	1.1. [Definition](#11)<br>
 	1.2. [Framework of Precision Medicine Process](#12)<br>
-	
 2. [Deep Phenotyping](#2)<br>
 	2.1. [Importance of Phenotype](#21)<br>
 	2.2. [Why "Deep" Phenotyping?](#22)<br>
 	2.3. [Processing Deep Phenotyping Data](#23)<br>
-
 3. [Data Analysis](#3)<br>
-
 	3.1. [Preprocessing and Data Mining](#31)<br>
 	3.2. [Diagnostic and Prognostic Models](#32)<br>
 	3.3. [Predicting Treatment Response](#33)<br>
-
 4. [Evolving Precision Medicine](#4)
-
 5. [Conclusion](#5)
-
 6. [References](#6)
 
 ## 1. What is Precision Medicine?<a name="1"></a>
