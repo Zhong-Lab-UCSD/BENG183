@@ -180,7 +180,7 @@ Two main strategies are usually used to develop the models:
 	1. **Full Model**  
 	No predictor selection is applied . Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge  to adequately preselect the biologically relevant predictors for modelling.
 
-	2. **Variable selection** 
+	2. **Variable selection**  
 	**Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly *Content-Specific*. 
 
 - Outcome  
