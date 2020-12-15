@@ -1,7 +1,3 @@
-# New Document
-
-
-
 # The Process of Precision Medicine
 
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
@@ -10,25 +6,25 @@
 
 1. [What is Precision Medicine?](#1)<br>
 
-1.1. [Definition](#11)<br>
+	1.1. [Definition](#11)<br>
 
-1.2. [Framework of Precision Medicine Process](#12)<br>
+	1.2. [Framework of Precision Medicine Process](#12)<br>
 
 2. [Deep Phenotyping](#2)<br>
 
-2.1. [Importance of Phenotype](#21)<br>
+	2.1. [Importance of Phenotype](#21)<br>
 
-2.2. [Why "Deep" Phenotyping?](#22)<br>
+	2.2. [Why "Deep" Phenotyping?](#22)<br>
 
-2.3. [Processing Deep Phenotyping Data](#23)<br>
+	2.3. [Processing Deep Phenotyping Data](#23)<br>
 
 3. [Data Analysis](#3)<br>
 
-3.1. [Preprocessing and Data Mining](#31)<br>
+	3.1. [Preprocessing and Data Mining](#31)<br>
 
-3.2. [Diagnostic and Prognostic Models](#32)<br>
+	3.2. [Diagnostic and Prognostic Models](#32)<br>
 
-3.3. [Predicting Treatment Response](#33)<br>
+	3.3. [Predicting Treatment Response](#33)<br>
 
 4. [Evolving Precision Medicine](#4)
 
@@ -135,7 +131,7 @@ Large-scale of data is expected to be integrated and converted into more precise
 
 ##### Figure 5: An integrated precision medicine framework for heterogeneous data collection, data analysis, knowledge management, and implementation of knowledge and data services.
 
-### 1) Preprocessing and Data Mining
+### 1) Preprocessing and Data Mining<a name="31"></a>
 
 The first step of data analysis is always data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing manoeuvres and different types of devices. Therefore, data is expected to be filtered and adjusted to be comparable in analysis. **Quality Control** and **Preprocessing** of the data shall be preformed in this step. Since quality control is always dependent on the specific data type, more details can be found in paper. [Ferté ]
 
@@ -167,7 +163,7 @@ Some of the common approaches for data preprocessing includes:
 
 Variable selection is important for filtering out noise data, yet how to define noise or whether a variable is revevant is always a unanswerable question. One important factor that can guide variable selection is scientifically based *a priori* knowledge about the possibly **biologically relevant variables**.
 
-### 2) Diagnostic and Prognostic Models
+### 2) Diagnostic and Prognostic Models<a name="32"></a>
 
 After data is ready from track 1 for further training, models can be developed to estimate the risk with absolute probability of the presence or absence of an outcome or disease in individuals based on their clinical and non-clinical information.  Prediction model can be diagnostic (outcome or disease present at this moment) or prognostic (outcome occurs within a specified time frame). [Hendriksen]
 
