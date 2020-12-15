@@ -1,4 +1,4 @@
-﻿
+
 
 
 
@@ -173,18 +173,19 @@ After data is ready from track 1 for further training, models can be developed t
 ##### Figure 7: Representation of diagnostic and prognostic prediction modeling studies
 
 - Model Development
+
 Two main strategies are usually used to develop the models:
 
-	1) **Full Model**
-	 No predictor selection is applied . Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge  to adequately preselect the biologically relevant predictors for modelling.
+	1) **Full Model**: No predictor selection is applied . Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge  to adequately preselect the biologically relevant predictors for modelling.
 
-	2) **Variable selection**
-	**Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly *Content-Specific*. 
+	2) **Variable selection**: **Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly *Content-Specific*. 
 
 - Outcome
+
 The outcome of a prediction aims to reflects a clinically significant and patient relevant health state, for example, death yes or no, or absence or presence of Leukemia.  In case of prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
 
 - Clinics-friendly Accommodation
+
 Regression model can be too complicated to use in daily clinical uses, the model is usually simplify by rounding coefficient toward integer numbers for easier scoring. However, such accommodation might negatively effected the accuracy of the model and thus needs to be applied carefully.
 
 
