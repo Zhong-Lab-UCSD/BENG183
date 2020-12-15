@@ -1,4 +1,4 @@
-
+# New Document
 
 
 
@@ -149,14 +149,17 @@ Some of the common approaches for data preprocessing includes:
 
 4. Data Below the Limits of Detection Filtration
 
-5. **Variable Selection**
+5. **Variable Selection**  
 
 
-**Case Example: Denoising + Variable selection**
+&nbsp;
+&nbsp;
+
+**Case Example:** *Denoising + Variable selection*
 
 *The collection of deep phenotyping data usually includes great amount of unselected data, which will inevitably include variables that are irrelevant for later modelling. The irrelevant variables that contain random “noise” can mask important underlying relationships and structures, which can shown in below.*
 
-45 individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the cluster algorithm fails to find the three groups as indicated in figure 6c. We can see that about  half of the individuals are classified incorrectly.
+45 individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the cluster algorithm fails to find the three groups as indicated in figure 6c. We can see that about half of the individuals are classified incorrectly.
 
 ![varsele](https://erj.ersjournals.com/content/erj/50/4/1700391/F3.large.jpg?width=800&height=600&carousel=1)
 
@@ -172,20 +175,18 @@ After data is ready from track 1 for further training, models can be developed t
 
 ##### Figure 7: Representation of diagnostic and prognostic prediction modeling studies
 
-- Model Development
-
+- Model Development  
 Two main strategies are usually used to develop the models:
+	1. **Full Model**  
+	No predictor selection is applied . Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge  to adequately preselect the biologically relevant predictors for modelling.
 
-	1) **Full Model**: No predictor selection is applied . Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge  to adequately preselect the biologically relevant predictors for modelling.
+	2. **Variable selection** 
+	**Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly *Content-Specific*. 
 
-	2) **Variable selection**: **Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly *Content-Specific*. 
-
-- Outcome
-
+- Outcome  
 The outcome of a prediction aims to reflects a clinically significant and patient relevant health state, for example, death yes or no, or absence or presence of Leukemia.  In case of prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
 
-- Clinics-friendly Accommodation
-
+- Clinics-friendly Accommodation  
 Regression model can be too complicated to use in daily clinical uses, the model is usually simplify by rounding coefficient toward integer numbers for easier scoring. However, such accommodation might negatively effected the accuracy of the model and thus needs to be applied carefully.
 
 
@@ -301,4 +302,5 @@ https://getreferralmd.com/2018/02/precision-medicine-can-help-fix-healthcare/
 Hendriksen JMT, Geersing GJ, Moons KGM, de Groot JAH. Diagnostic and prognostic prediction models. J Thromb Hae- most 2013; 11 (Suppl. 1): 129–41.
 
 M. Afzal, S. M. Riazul Islam, M. Hussain and S. Lee, "Precision Medicine Informatics: Principles, Prospects, and Challenges," in IEEE Access, vol. 8, pp. 13593-13612, 2020, doi: 10.1109/ACCESS.2020.2965955.
+
 
