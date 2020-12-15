@@ -81,8 +81,8 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ## 4. Evolving Precision Medicine<a name="4"></a>
 
+##### Figure 5: The figure below shows repeated cycles of precision medicine and its subsequent outcome.
 ![evol](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
-##### Figure 5: The figure above shows repeated cycles of precision medicine and its subsequent outcome.
 
 As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnotic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution. 
 
