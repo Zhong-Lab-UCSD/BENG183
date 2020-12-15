@@ -1,15 +1,12 @@
-
+﻿
 
 
 
 # The Process of Precision Medicine
 
-
 ### by Soyeon Kim, Hwayeon Lee, Meixian Wu
 
-#### BENG 183 Applied Genomic Technologies
-
-## Table of Contents
+  
 
 1. [What is Precision Medicine?](#1)<br>
 
@@ -53,19 +50,14 @@
 
 Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy' and 'deep phenotyping.'
 
-<<<<<<< HEAD
   
 
 The focus of applied definitions is moving away from classical 'signs-and-symptoms’ approach or 'population’ approach into 'N of 1’ approach in which each patient is an entire trial as a single case study from N number of individuals within a population. Figure 1 shows the difference between two approaches with same group of patients. Comprehensive study of such subclasses ultimately depends on computational resources to capture, store and exchange phenotypic data, and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information.
-=======
-The focus is to move away from classical 'signs-and-symptoms’ approach or 'population’ approach into 'N of 1’ approach in which each patient is an entire trial or a single case study from N number of individuals within a population. Figure 1 shows the difference between classical approach and precision medicine approach. Ultimately, comprehensive study of such subclasses depends on computational resources to capture, store and exchange phenotypic data and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information.
->>>>>>> d94479fce00c00580bbf6152cab074d85af22e2f
 
   
 
 ![f1](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
 
-<<<<<<< HEAD
   
 
 ##### Figure 1: In the left diagram, colon cancer patients are clustered into one group and give the same treatment, because they were treated as one group from the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group are divided into disease subgroups with more precise and validated phenotypic recognition or better understanding of the causal pathways.
@@ -87,17 +79,6 @@ The framework of precision medicine is a process made up of number of feedback l
 ###### Figure 2: This diagram shows the process of precision medicine. In the deep phenotyping stage, data are gathered and forwarded to tracks 1-3, which are clinical data assessment steps. In track 1, data are preprocessed and explored for previously unknown structure with data mining techniques, such as clustering analysis to derive subgroup of samples. This step also composes of denoise and baseline correction and variable selection. Track 2 forecasts clinically relevant outcome as the model after number of feedback loops. Track 3 predicts treatment response and generates further knowledge about the treatment. This step also utilizes feedback to patient phenotyping results. Results from track 1-3 are fed back to deep phenotyping stage for subsequent assessments.
 
   
-=======
-##### Figure 1: The left diagram shows treatment based on 'signs-and-symptoms' research. Patients with colon cancer are clustered into one group and given the same therapy, which thereby varies in treatment responses. Treatment has worked for some individuals while it had no or adverse effect for other. This is because this approach does not take patients' phenoytpic information into account. On the right, the same group of patients have been divided into subgroups based on individual phenotypic recognition, resulting in better understanding of the causal pathways and better treatment responses. 
-
-### 2) Framework of Precision Medicine Process<a name="12"></a>
-
-At the highest level, precision medicine process is a framework made up of feedback loops, with no steady-end point. Each cycle is an attempt to sort out and validate the process and stratify the subgroups further. The data assessed in the patients are used to try to develop clinically relevant models, and analyses inform need for further assessment of patients as an evolving result.  
-
-![f2](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
-
-###### Figure 2: This diagram shows the process of precision medicine. In the deep phenotyping stage, data are gathered and forwarded to tracks 1-3. In track 1, data are preprocessed and explored for previously unknown structure with data mining techniques, such as clustering analysis to derive subgroup of samples. This step also composes of denoise and baseline correction and variable selection. Track 2 forecasts clinically relevant outcome as the model after number of feedback loops. Track 3 predicts treatment response and generates further knowledge about the treatment. This step also utilizes feedback to patient phenotyping results. Results from track 1-3 are fed back to deep phenotyping stage for subsequent assessments. 
->>>>>>> d94479fce00c00580bbf6152cab074d85af22e2f
 
 ## 2. Deep Phenotyping<a name="2"></a>
 
