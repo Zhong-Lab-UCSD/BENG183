@@ -21,13 +21,13 @@
 
 ### 1) Definition<a name="11"></a>
 
-Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy', and 'deep phenotyping.'
+Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy', and 'deep phenotyping'.
 
 The focus of applied definitions is moving away from the classical 'signs-and-symptoms’ approach or 'population’ approach into the 'N of 1’ approach in which each patient is an entire trial as a single case study from N number of individuals within a population. Figure 1 shows the difference between two approaches with the same group of patients. A comprehensive study of such subclasses ultimately depends on computational resources to capture, store and exchange phenotypic data, and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information.
 
 ![f1](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
 
-##### Figure 1: In the left diagram, colon cancer patients are clustered into one group and give the same treatment, because they were treated as one group for the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group is divided into disease subgroups with more precise and validated phenotypic recognition or a better understanding of the causal pathways.
+##### Figure 1: In the left diagram, colon cancer patients are clustered into one group and are given the same treatment, because they are treated as one group for the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group is divided into disease subgroups with more precise and validated phenotypic recognition or a better understanding of the causal pathways.
 
 ### 2) Framework of Precision Medicine Process<a name="12"></a>
 
@@ -35,7 +35,7 @@ The framework of precision medicine is a process made up of a number of feedback
 
 ![f2](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
 
-###### Figure 2: This diagram shows the process of precision medicine. In the deep phenotyping stage, data are gathered and forwarded to tracks 1-3, which are clinical data assessment steps. In track 1, data are preprocessed and explored for previously unknown structure with data mining techniques, such as clustering analysis to derive subgroup of samples. This step also composes of denoise and baseline correction and variable selection. Track 2 forecasts clinically relevant outcome as the model after a number of feedback loops. Track 3 predicts treatment response and generates further knowledge about the treatment. This step also utilizes feedback to patient phenotyping results. Results from tracks 1-3 are fed back to the deep phenotyping stage for subsequent assessments.
+###### Figure 2: This diagram shows the process of precision medicine. In the deep phenotyping stage, data are gathered and forwarded to tracks 1-3, which are clinical data assessment steps. In track 1, data are preprocessed and explored for previously unknown structure with data mining techniques, such as clustering analysis to derive subgroup of samples. This step also composes of denoising, baseline correction, and variable selection. Track 2 forecasts clinically relevant outcome as the model after a number of feedback loops. Track 3 predicts treatment response and generates further knowledge about the treatment. This step also utilizes feedback to patient phenotyping results. Results from tracks 1-3 are fed back to the deep phenotyping stage for subsequent assessments.
 
 ## 2. Deep Phenotyping<a name="2"></a>
 
@@ -51,7 +51,7 @@ This is where precise phenotype information comes into play. As the physician ma
 
 ### 2) Why "Deep" Phenotyping?<a name="22"></a>
 
-The major problem with the current phenotyping regime is sloppy or imprecise descriptions of phenotypic descriptions in medical publications. For instance, “still walking after 25 years of onset” is definitely a phenotypic description, yet it is unclear what the physician observed in the patient as such descriptions are likely to evoke different ideas for different readers depending on personal experience and imagination. Furthermore, the current gene mutation database has very little to no phenotypic information. Other than the fact that the patient has that mutagen. While this information is indeed important for determining pathogenicity, it is devoid of the natural history of the disease – which is very important clinically in understanding the spectrum of complications with the disease, or genotype-phenotype correlations. Deep phenotyping offers solutions for current challenges, including semantics and technical standards for phenotype and disease data. Deep phenotyping is defined as a precise and comprehensive analysis of phenotypic abnormalities in which individual components of the phenotype are observed and described. Figure 4 shows a precision medicine approach to phenotyping; even the individuals with the same endophenotype may are biologically distinct and encompass different disease profiles.
+The major problem with the current phenotyping regime is unsystematic or imprecise descriptions of phenotypic descriptions in medical publications. For instance, “still walking after 25 years of onset” is definitely a phenotypic description, yet it is unclear what the physician observed in the patient as such descriptions are likely to evoke different ideas for different readers depending on personal experience and imagination. Furthermore, the current gene mutation database has very little to no phenotypic information other than the fact that the patient has that mutagen. While this information is indeed important for determining pathogenicity, it is devoid of the natural history of the disease – which is very important clinically in understanding the spectrum of complications with the disease, or genotype-phenotype correlations. Deep phenotyping offers solutions for current challenges, including semantics and technical standards for phenotype and disease data. Deep phenotyping is defined as a precise and comprehensive analysis of phenotypic abnormalities in which individual components of the phenotype are observed and described. Figure 4 shows a precision medicine approach to phenotyping; even the individuals with the same endophenotype may are biologically distinct and encompass different disease profiles.
 
 ![f4](https://www.ahajournals.org/cms/asset/2e0cefe8-d12c-4959-bc13-b509a92e2a34/1302fig01.gif)
 
@@ -59,11 +59,11 @@ The major problem with the current phenotyping regime is sloppy or imprecise des
 
 ### 3) Processing Deep Phenotyping Data<a name="23"></a>
 
-Conversion of deep phenotyping data into tangible therapeutic utility poses a number of challenges yet to be solved. First, computational environments for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important, however, is the integration of the two. For example, next-Generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information are critical in generating the data in a clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity.
+Conversion of deep phenotyping data into tangible therapeutic utility poses a number of challenges yet to be solved. First, computational environments for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important, however, is the integration of the two. For example, next-generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information are critical in generating the data in a clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity.
 
 ## 3. Data Analysis<a name="3"></a>
 
-Large-scale data is expected to be integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment. [Afzal]
+Large-scale data is integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment. [Afzal]
 
 ![fig5](https://ieeexplore.ieee.org/ielx7/6287639/8948470/8957137/graphical_abstract/access-gagraphic-2965955.jpg)
 
@@ -71,7 +71,7 @@ Large-scale data is expected to be integrated and converted into more precise th
 
 ### 1) Preprocessing and Data Mining<a name="31"></a>
 
-The first step of data analysis is always data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is expected to be filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data shall be performed in this step. Since quality control is always dependent on the specific data type, more details can be found in the paper. [Ferté ]
+The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **preprocessing** of the data are performed in this step [Ferté ].
 
 Some of the common approaches for data preprocessing includes:
 
@@ -89,15 +89,15 @@ Some of the common approaches for data preprocessing includes:
 
 **Case Example:** *Denoising + Variable selection*
 
-*The collection of deep phenotyping data usually includes a great amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random “noise” can mask important underlying relationships and structures, which is shown below.*
+*The collection of deep phenotyping data includes a great amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random “noise” can mask important underlying relationships and structures, which is shown below.*
 
-45 individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the cluster algorithm fails to find the three groups as indicated in figure 6c. We can see that about half of the individuals are classified incorrectly.
+In the figure below, 45 individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly in figure 6b. However, if three random noise variables are added to the dataset, the cluster algorithm fails to find the three groups as indicated in figure 6c. About half of the individuals are classified incorrectly.
 
 ![varsele](https://erj.ersjournals.com/content/erj/50/4/1700391/F3.large.jpg?width=800&height=600&carousel=1)
 
 ##### Figure 6: Impact of variable selection based on illustration
 
-Variable selection is important for filtering out noise data, yet how to define noise or whether a variable is relevant is always an unanswerable question. One important factor that can guide variable selection is scientifically based a priori knowledge about the possibly **biologically relevant variables**.
+Variable selection is important for filtering out noisy data, yet how to define noise or whether a variable is relevant remains unanswerable. One important factor that can guide variable selection is scientifically based a priori knowledge about the possibly **biologically relevant variables**.
 
 ### 2) Diagnostic and Prognostic Models<a name="32"></a>
 
@@ -110,16 +110,18 @@ After data is ready from track 1 for further training, models can be developed t
 - Model Development  
 Two main strategies are usually used to develop the models:
 	1. **Full Model**  
-	No predictor selection is applied. Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge to adequately preselect the biologically relevant predictors for modeling.
+	No predictor selection is applied. 
+	Pros: avoid improper predictor selection due to predictor selection bias. 
+	Cons: requires much prior knowledge to adequately preselect the biologically relevant predictors for modeling.
 
 	2. **Variable selection**  
 	**Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly content-specific. 
 
 - Outcome  
-The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, death yes or no, or absence or presence of Leukemia.  In the case of the prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
+The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, prediction on death, or absence or presence of leukemia.  In the case of the prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
 
 - Clinics-friendly Accommodation  
-The regression model can be too complicated to use in daily clinical uses, the model is usually simplified by rounding coefficient toward integer numbers for easier scoring. However, such accommodation might negatively affected the accuracy of the model and thus needs to be applied carefully.
+The regression model can be too complicated to use in daily clinical uses. Therefore, the model is usually simplified by rounding coefficient toward integer numbers for easier scoring. However, such accommodation might negatively affect the accuracy of the model and thus it needs to be applied carefully.
 
 ### 3) Predicting Treatment Response<a name="33"></a>
 
@@ -177,7 +179,7 @@ Flood-Page P, Swenson C, Faiferman I, et al. A study to evaluate safety and effi
 
 Haldar P, Brightling CE, Hargadon B, et al. Mepolizumab and exacerbations of refractory eosinophilic asthma. N Engl J Med 2009; 360: 973–984.
 
-the image- might not use-- “What Is Precision Medicine and How Can It Help Fix Healthcare.” ReferralMD, ReferralMD, 11 Dec. 2018, getreferralmd.com/2018/02/precision-medicine-can-help-fix-healthcare/. https://getreferralmd.com/2018/02/precision-medicine-can-help-fix-healthcare/
+“What Is Precision Medicine and How Can It Help Fix Healthcare.” ReferralMD, ReferralMD, 11 Dec. 2018, getreferralmd.com/2018/02/precision-medicine-can-help-fix-healthcare/.
 
 Ferté C, Trister AD, Huang E, et al.  Impact of bioinformatic procedures in the development and translation of high-throughput molecular classifiers in oncology. Clin Cancer Res 2013; **19**: 4315–4325.
 
