@@ -125,11 +125,9 @@ The major problem with current phenotyping regime is sloppy or imprecise descrip
 Conversion of deep phenotyping data into tangible therapeutic utility poses number of challenges yet to be solved. First, computational environments for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important, however, is the integration of the two. For example, next-Generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information are critical in generating the data in clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity.
 
   
-
-
 ## 3. Data Analysis<a name="3"></a>
 
-Large-scale of data is expected to be integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment. [Afzal]
+Large-scale data is expected to be integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment. [Afzal]
 
 ![fig5](https://ieeexplore.ieee.org/ielx7/6287639/8948470/8957137/graphical_abstract/access-gagraphic-2965955.jpg)
 
@@ -137,7 +135,7 @@ Large-scale of data is expected to be integrated and converted into more precise
 
 ### 1) Preprocessing and Data Mining
 
-The first step of data analysis is always data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing manoeuvres and different types of devices. Therefore, data is expected to be filtered and adjusted to be comparable in analysis. **Quality Control** and **Preprocessing** of the data shall be preformed in this step. Since quality control is always dependent on the specific data type, more details can be found in paper. [Ferté ]
+The first step of data analysis is always data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is expected to be filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data shall be performed in this step. Since quality control is always dependent on the specific data type, more details can be found in the paper. [Ferté ]
 
 Some of the common approaches for data preprocessing includes:
 
@@ -145,7 +143,7 @@ Some of the common approaches for data preprocessing includes:
 
 2. Missing Value Filling
 
-3. Data Out of Range  Filtration
+3. Data Out of Range Filtration
 
 4. Data Below the Limits of Detection Filtration
 
@@ -157,19 +155,19 @@ Some of the common approaches for data preprocessing includes:
 
 **Case Example:** *Denoising + Variable selection*
 
-*The collection of deep phenotyping data usually includes great amount of unselected data, which will inevitably include variables that are irrelevant for later modelling. The irrelevant variables that contain random “noise” can mask important underlying relationships and structures, which can shown in below.*
+*The collection of deep phenotyping data usually includes a significant amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random “noise” can mask meaningful underlying relationships and structures, which can be shown below.*
 
-45 individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the cluster algorithm fails to find the three groups as indicated in figure 6c. We can see that about half of the individuals are classified incorrectly.
+Forty-five individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the clustering algorithm fails to find the three groups, as indicated in figure 6c. We can see that about half of the individuals are classified incorrectly.
 
 ![varsele](https://erj.ersjournals.com/content/erj/50/4/1700391/F3.large.jpg?width=800&height=600&carousel=1)
 
 ##### Figure 6: Impact of variable selection based on illustration
 
-Variable selection is important for filtering out noise data, yet how to define noise or whether a variable is revevant is always a unanswerable question. One important factor that can guide variable selection is scientifically based *a priori* knowledge about the possibly **biologically relevant variables**.
+Variable selection is essential for filtering out noise data, yet how to define noise or whether a variable is relevant is always an unanswerable question. One crucial factor that can guide variable selection is scientifically based *a priori* knowledge about the possibly **biologically relevant variables**.
 
 ### 2) Diagnostic and Prognostic Models
 
-After data is ready from track 1 for further training, models can be developed to estimate the risk with absolute probability of the presence or absence of an outcome or disease in individuals based on their clinical and non-clinical information.  Prediction model can be diagnostic (outcome or disease present at this moment) or prognostic (outcome occurs within a specified time frame). [Hendriksen]
+After data is ready from track 1 for further training, models can be developed to estimate the risk with an absolute probability of the presence or absence of an outcome or disease in individuals based on their clinical and non-clinical information. The prediction model can be diagnostic (outcome or disease present at this moment) or prognostic (outcome occurs within a specified time frame). [Hendriksen]
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-014-0241-z/MediaObjects/12916_2014_241_Fig1_HTML.gif)
 
@@ -178,16 +176,16 @@ After data is ready from track 1 for further training, models can be developed t
 - Model Development  
 Two main strategies are usually used to develop the models:
 	1. **Full Model**  
-	No predictor selection is applied . Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge  to adequately preselect the biologically relevant predictors for modelling.
+	No predictor selection is applied. Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge to preselect the biologically relevant predictors for modeling adequately.
 
 	2. **Variable selection**  
-	**Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion.  Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods, The choice of methods is highly *Content-Specific*. 
+	**Backward Elimination** of ‘redundant’ predictors or **Forward Selection** of ‘promising’ ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly *Content-Specific*. 
 
 - Outcome  
-The outcome of a prediction aims to reflects a clinically significant and patient relevant health state, for example, death yes or no, or absence or presence of Leukemia.  In case of prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
+The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, death yes or no, or absence or presence of Leukemia. In the case of a prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
 
 - Clinics-friendly Accommodation  
-Regression model can be too complicated to use in daily clinical uses, the model is usually simplify by rounding coefficient toward integer numbers for easier scoring. However, such accommodation might negatively effected the accuracy of the model and thus needs to be applied carefully.
+The regression model can be too complicated to use in daily clinical uses; the model is usually simplified by rounding coefficient toward integer numbers for easier scoring. However, such accommodation might negatively affect the model's accuracy and thus needs to be applied carefully.
 
 
 ### 3) Predicting Treatment Response<a name="33"></a>
