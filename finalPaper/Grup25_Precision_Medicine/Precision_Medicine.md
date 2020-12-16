@@ -84,10 +84,7 @@ Some of the common approaches for data preprocessing includes:
 4. Data Below the Limits of Detection Filtration
 
 5. **Variable Selection**  
-
 &nbsp;
-&nbsp;
-
 **Case Example:** *Denoising + Variable selection*
 
 *The collection of deep phenotyping data usually includes great amount of unselected data, which will inevitably include variables that are irrelevant for later modelling. The irrelevant variables that contain random “noise” can mask important underlying relationships and structures, which can shown in below.*
