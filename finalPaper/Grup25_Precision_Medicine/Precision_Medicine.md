@@ -69,7 +69,7 @@ Conversion of deep phenotyping data into tangible therapeutic utility poses a nu
 Large-scale data is integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment. [Afzal]
 
 
-![fig5](https://ieeexplore.ieee.org/ielx7/6287639/8948470/8957137/graphical_abstract/access-gagraphic-2965955.jpg)
+![fig5](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/8957137/afzal8-2965955-large.gif)
 
 ##### Figure 5: An integrated precision medicine framework for heterogeneous data collection, data analysis, knowledge management, and implementation of knowledge and data services.
 
