@@ -59,11 +59,11 @@ The major problem with the current phenotyping regime is unsystematic or impreci
 
 ### 3) Processing Deep Phenotyping Data<a name="23"></a>
 
-Conversion of deep phenotyping data into tangible therapeutic utility poses a number of challenges yet to be solved. First, computational environment for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important, however, is the integration of the two. For example, next-Generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information is critical in generating the data in a clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity [König et al.].
+Conversion of deep phenotyping data into tangible therapeutic utility poses a number of challenges yet to be solved. First, computational environment for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important part, however, is the integration of the two. For example, next-generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information is critical in generating the data in a clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity [König et al.].
 
 ## 3. Data Analysis<a name="3"></a>
 
-Large-scale data is integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment [M. Afzal].
+Large-scale data is integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment [M. Afzal et al.].
 
 ![f5](images/figure5.gif)
 
@@ -71,11 +71,11 @@ Large-scale data is integrated and converted into more precise therapeutic inter
 
 ### 1) Preprocessing and Data Mining<a name="31"></a>
 
-The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper [Ferté].
+The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data are filtered and adjusted to be comparable in the analysis. Quality Control and preprocessing of the data are performed in this step [Ferté et al.].
 
-Some of the common approaches for data preprocessing includes:
+Some common approaches for data preprocessing include:
 
-1. **Denoising** and Baseline Correction
+1. Denoising and Baseline Correction
 
 2. Missing Value Filling
 
@@ -83,33 +83,32 @@ Some of the common approaches for data preprocessing includes:
 
 4. Data Below the Limits of Detection Filtration
 
-5. **Variable Selection**  
+5. Variable Selection
 
 &nbsp;
-&nbsp;
 
-**Case Example:** *Denoising + Variable selection*
+**Case Example:** Denoising + Variable selection
 
-*The collection of deep phenotyping data includes a significant amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random "noise" can mask meaningful underlying relationships and structures, which is shown below.*
+The collection of deep phenotyping data includes a significant amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random "noise" can mask meaningful underlying relationships and structures, which is shown below.
 
-Forty-five individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the clustering algorithm fails to find the three groups, as indicated in figure 6c. About half of the individuals are classified incorrectly.
+In the figure below, forty-five individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly, as shown in figure 6b. However, if three random noise variables are added to the dataset, the clustering algorithm fails to find the three groups, as indicated in figure 6c. About half of the individuals are classified incorrectly.
 
 ![f6](images/figure6.jpg)
 
 ##### Figure 6: The illustration of an impact of variable selection 
 
-Variable selection is important for filtering out noisy data, yet how to define noise or whether a variable is relevant remains unanswerable. One important factor that can guide variable selection is scientifically based a priori knowledge about the possible **biologically relevant variables**.
+Variable selection is important for filtering out noisy data, yet how to define noise or whether a variable is relevant remains unanswered. One important factor that guides variable selection is scientifically based a priori knowledge about the possible biologically relevant variables.
 
 ### 2) Diagnostic and Prognostic Models<a name="32"></a>
 
-After data is ready from track 1 for further training, models can be developed to estimate the risk with an absolute probability of the presence or absence of an outcome or disease in individuals based on their clinical and non-clinical information. The prediction model can be diagnostic (outcome or disease present at this moment) or prognostic (outcome occurs within a specified time frame) [Hendriksen]. 
+After data are ready from track 1 for further training, models can be developed to estimate the risk with an absolute probability of the presence or the absence of an outcome or disease in individuals based on their clinical and non-clinical information. The prediction model can be diagnostic(outcome or disease present at this moment) or prognostic(outcome occurs within a specified time frame) [Hendriksen et al.]. 
 
 ![f7](images/figure7.png)
 
-##### Figure 7: Representation of diagnostic and prognostic prediction modeling studies
+##### Figure 7: The flow of a diagnostic multivariable modeling study
 
 - Model Development  
-Two main strategies are used to develop the models:
+Two major strategies are used to develop the models:
 	1. **Full Model**  
 	No predictor selection is applied. 
 	Pros: avoid improper predictor selection due to predictor selection bias. 
@@ -117,10 +116,10 @@ Two main strategies are used to develop the models:
 
 	2. **Variable selection**  
 	**Backward Elimination** of 'redundant' predictors or **Forward Selection** of 'promising' ones. 
-	The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly content-specific [Hendriksen].
+	The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly content-specific [Hendriksen et al.].
 
 - Outcome  
-The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, prediction on death, or absence or presence of leukemia. In the case of the prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development [Hendriksen].
+The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, prediction on death, or presence of leukemia. In the case of the prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development [Hendriksen et al.].
 
 - Clinics-friendly Accommodation  
 The regression model can be too complicated to use in daily clinical uses. Therefore, the model is usually simplified by rounding the coefficients toward integer numbers for easier scoring. However, such accommodation might negatively affect the accuracy of the model, and thus it needs to be applied carefully.
@@ -129,9 +128,9 @@ The regression model can be too complicated to use in daily clinical uses. There
 
 After developing diagnostic and prognostic models from the previous step, there is a need for assessing variables that define a novel taxonomy with their relevance in predicting treatment response. There are two strategies to develop models that predict treatment response.
 
-- Prediction models can be built on the diagnostic and prognostic models from the previous stage as prognostic factors may act as the natural variables to consider when developing prediction models. For instance, epidermal growth factor receptor tyrosine kinase status acts as a prognostic factor for survival in patients with non-small cell lung cancer and a predictive factor for response to the tyrosine kinase inhibitor gefitinib as first-line treatment at the same time [Riley RD(will change later after sorting&numbering sources].
+- Prediction models can be built on the diagnostic and prognostic models from the previous stage as prognostic factors may act as the natural variables to consider when developing prediction models. For instance, epidermal growth factor receptor tyrosine kinase status acts as a prognostic factor for survival in patients with non-small cell lung cancer and a predictive factor for response to the tyrosine kinase inhibitor gefitinib as first-line treatment at the same time [Riley et al.].
 
-- The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the study of asthma patients, the first clinical trials used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment. In the trial, the use of mepolizumab was associated with a significant reduction in blood and sputum eosinophils but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar P].
+- The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the study of asthma patients, the first clinical trials used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment. In the trial, the use of mepolizumab was associated with a significant reduction in blood and sputum eosinophils but did not have significant clinical benefit in asthma patients [Flood-Page et al.]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar et al.].
 
 ![fig8](images/Precision-medicine.jpg)
 
@@ -139,7 +138,7 @@ After developing diagnostic and prognostic models from the previous step, there 
 
 This process of building prediction models involves generating further knowledge about the disease and treatment from the diagnostics and prognostics models or the data itself. The findings from this process, in the form of data, would be fed back to the phenotyping of patients to further adjust the clinical trial that could more precisely show the effectiveness of the treatment.
 
-In addition to the feedback, dissemination and communication of the taxonomy and models with the clinical and scientific communities, for instance, to provide utilizable algorithms for clinical practices.
+In addition to the feedback, dissemination and communication of the taxonomy and models with the clinical and scientific communities, for instance, to provide utilizable algorithms for clinical practices [König et al.].
 
 ## 4. Evolving Precision Medicine<a name="4"></a>
 
@@ -147,7 +146,7 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ![evol](images/evolving.jpg)
 
-As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnostic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution.
+As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnostic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution [König et al.].
 
 The detailed steps are as follows:
 
@@ -159,7 +158,7 @@ The detailed steps are as follows:
 
 ## 5. Conclusion<a name="5"></a>
 
-In this paper, the process of precision medicine, starting from the deep phenotyping stage to the data analysis part, which comprised preprocessing, data mining, developing diagnostic, prognostic, and prediction models, was discussed. As seen in the previous section on the continual evolution of precision medicine with the repeated cycles of the above steps, precision medicine should be viewed as the continuous process of feedback loops rather than a steady-state with an end-point or a specific output from the research. In this context, tailored or stratified medicine resulting from new stratifications can be considered as a makeshift product of the process that will generate new data for the next cycle, thus further increasing the precision.
+In this paper, the process of precision medicine, starting from the deep phenotyping stage to the data analysis, which comprised preprocessing, data mining, developing diagnostic, prognostic, and prediction models, was discussed. As seen in the previous section on the continual evolution of precision medicine with the repeated cycles of the above steps, precision medicine should be viewed as the continuous process of feedback loops rather than a steady-state with an end-point or a specific output from the research. In this context, tailored or stratified medicine resulting from new stratifications can be considered as a makeshift product of the process that will generate new data for the next cycle, thus further increasing the precision.
 
 Once again, the ultimate goal of precision medicine is the most effective treatment for the individual patient. To step closer to this goal, ongoing endeavors to be even more precise and individualistic, newly-gained scientific and clinical knowledge, and new data sources would be necessary.
 
