@@ -139,7 +139,7 @@ After developing diagnostic and prognostic models from the previous step, there 
 
 - The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the study of asthma patients, the first clinical trials used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment. In the trial, the use of mepolizumab was associated with a significant reduction in blood and sputum eosinophils but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar P].
 
-![groups](https://mh1042yko1f3sh26m19pxzy1-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Precision-medicine.jpg)
+![fig8](images/Precision-medicine.jpg)
 
 ##### Figure 8: The figure above is an illustration of applying different treatments, also known as "tailored medicine", to categorized groups to increase the effectiveness of treatment based on a prediction model.
 
@@ -151,7 +151,7 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ##### Figure 9: The figure below shows repeated cycles of precision medicine and its subsequent outcome.
 
-![evol](https://erj.ersjournals.com/content/erj/50/4/1700391/F2.large.jpg)
+![evol](images/evolving.jpg)
 
 As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnostic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution.
 
