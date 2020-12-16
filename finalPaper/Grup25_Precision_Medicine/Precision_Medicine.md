@@ -96,7 +96,7 @@ Forty-five individuals are clustered into three homogeneous subgroups if two var
 
 ![varsele](https://erj.ersjournals.com/content/erj/50/4/1700391/F3.large.jpg?width=800&height=600&carousel=1)
 
-##### Figure 6: Impact of variable selection based on illustration
+##### Figure 6: THe illustration of an impact of variable selection 
 
 Variable selection is important for filtering out noisy data, yet how to define noise or whether a variable is relevant remains unanswerable. One important factor that can guide variable selection is scientifically based a priori knowledge about the possible **biologically relevant variables**.
 
