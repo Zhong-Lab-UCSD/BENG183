@@ -25,7 +25,7 @@ Precision medicine is personalized treatment strategies on the basis of genetic,
 
 The focus of applied definitions is moving away from the classical 'signs-and-symptoms' approach or 'population' approach into the 'N of 1' approach in which each patient is an entire trial as a single case study from N number of individuals within a population. Figure 1 shows the difference between the two approaches with the same group of patients. A comprehensive study of such subclasses ultimately depends on computational resources to capture, store and exchange phenotypic data and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information.
 
-![f1](https://www.abpischools.org.uk/thumbnails/0/1151.20.jpg)
+![f1](images/figure1.jpg)
 
 ##### Figure 1: In the left diagram, colon cancer patients are clustered into one group and are given the same treatment because they are treated as one group for the same symptoms. This does not take into account that patients may respond differently to a particular disease or treatment. On the right diagram, however, the same group is divided into disease subgroups with more precise and validated phenotypic recognition or a better understanding of the causal pathways.
 
@@ -33,7 +33,7 @@ The focus of applied definitions is moving away from the classical 'signs-and-sy
 
 The framework of precision medicine is a process made up of a number of feedback loops, with no steady-end point. Each cycle is an attempt to make the process more precise with more stratification of patients. The data assessed in the patients are used to try to develop clinically relevant models, and the results of these analyses then inform the further assessment of patients as an evolving result.
 
-![f2](https://erj.ersjournals.com/content/erj/50/4/1700391/F1.large.jpg?width=800&height=600&carousel=1)
+![f2](images/figure2.jpg)
 
 ###### Figure 2: This diagram shows the process of precision medicine. In the deep phenotyping stage, data are gathered and forwarded to tracks 1-3, which are clinical data assessment steps. In track 1, data are preprocessed and explored for previously unknown structure with data mining techniques, such as clustering analysis to derive subgroup of samples. This step also composes of denoising, baseline correction, and variable selection. Track 2 forecasts clinically relevant outcomes as the model after a number of feedback loops. Track 3 predicts treatment response and generates further knowledge about the treatment. This step also utilizes feedback to patient phenotyping results. Results from tracks 1-3 are fed back to the deep phenotyping stage for subsequent assessments.
 
@@ -45,7 +45,7 @@ The word phenotype can be used differently in biology versus medicine. In biolog
 
 This is where precise phenotype information comes into play. As the physician makes notes of the patient's phenotypes, the physician is making a diagnosis for the patient's disease – making a hypothesis of what it may or may not be and provides a treatment that may or may not work. Making a diagnosis, therefore, is perhaps the most important task in treating a disease, but it is the most challenging task, especially for the cases of rare diseases, of which 8000 diseases are yet to be classified. Today, major clinical problems arise from delayed or inaccurate diagnosis, treatment, and unnecessary procedures that result in patients' psychological burdens and unnecessary expenses. To prevent complications and set forth effective treatments from making a correct prognosis, a full spectrum of phenotypic abnormalities is absolutely critical for improving care quality while reducing the need for unnecessary diagnostic testing and therapies. Figure 3 shows the importance of phenotype and its molecular network underpinning. Even with the same endophenotype, risk varies between individuals because their phenotype ultimately varies at the molecular level.
 
-![f3](https://www.ahajournals.org/cms/asset/7d41d41d-df72-4af2-ae28-a3d97454ab16/1302fig05.gif)
+![f3](images/figure3.gif)
 
 ##### Figure 3: Individuals with the same endophenotype, such as hypertension, can have different molecular phenotypes – resulting in different risk levels. Molecular phenotyping determines patients have different treatment responses as well.
 
@@ -53,7 +53,7 @@ This is where precise phenotype information comes into play. As the physician ma
 
 The major problem with the current phenotyping regime is unsystematic or imprecise descriptions of phenotypic descriptions in medical publications. For instance, "still walking after 25 years of onset" is definitely a phenotypic description, yet it is unclear what the physician observed in the patient as such descriptions are likely to evoke different ideas for different readers depending on personal experience and imagination. Furthermore, the current gene mutation database has very little to no phenotypic information other than the fact that the patient has that mutagen. While this information is indeed important for determining pathogenicity, it is devoid of the natural history of the disease – which is very important clinically in understanding the spectrum of complications with the disease or genotype-phenotype correlations. Deep phenotyping offers solutions for current challenges, including semantics and technical standards for phenotype and disease data. Deep phenotyping is defined as a precise and comprehensive analysis of phenotypic abnormalities in which individual components of the phenotype are observed and described. Figure 4 shows a precision medicine approach to phenotyping; even the individuals with the same endophenotype may are biologically distinct and encompass different disease profiles.
 
-![f4](https://www.ahajournals.org/cms/asset/2e0cefe8-d12c-4959-bc13-b509a92e2a34/1302fig01.gif)
+![f4](images/figure4.gif)
 
 ##### Figure 4: Individuals undergo a deep phenotyping process with data analysis performed using network analysis. This is deep phenotyping because individuals are classified beyond their endophenotypes. Such methodology optimizes the identification of biomarkers, clinical trials, and prognostication of disease.
 
@@ -71,7 +71,7 @@ Large-scale data is integrated and converted into more precise therapeutic inter
 
 ### 1) Preprocessing and Data Mining<a name="31"></a>
 
-The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper. [Ferté]
+The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper. [Ferté ]
 
 Some of the common approaches for data preprocessing includes:
 
@@ -129,9 +129,9 @@ The regression model can be too complicated to use in daily clinical uses. There
 
 After developing diagnostic and prognostic models from the previous step, there is a need for assessing variables that define a novel taxonomy with their relevance in predicting treatment response. There are two strategies to develop models that predict treatment response.
 
-- Prediction models can be built on the diagnostic and prognostic models from the previous stage as prognostic factors may act as the natural variables to consider when developing prediction models. For instance, epidermal growth factor receptor tyrosine kinase status acts as a prognostic factor for survival in patients with non-small cell lung cancer and a predictive factor for response to the tyrosine kinase inhibitor gefitinib as first-line treatment at the same time [Riley].
+- Prediction models can be built on the diagnostic and prognostic models from the previous stage as prognostic factors may act as the natural variables to consider when developing prediction models. For instance, epidermal growth factor receptor tyrosine kinase status acts as a prognostic factor for survival in patients with non-small cell lung cancer and a predictive factor for response to the tyrosine kinase inhibitor gefitinib as first-line treatment at the same time [Riley RD(will change later after sorting&numbering sources].
 
-- The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the study of asthma patients, the first clinical trials used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment. In the trial, the use of mepolizumab was associated with a significant reduction in blood and sputum eosinophils but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar].
+- The data can be directly utilized to extract significant information relevant to the prediction of the disease. For instance, in the study of asthma patients, the first clinical trials used the monoclonal anti-IL-5 antibody mepolizumab for asthma treatment. In the trial, the use of mepolizumab was associated with a significant reduction in blood and sputum eosinophils but did not have significant clinical benefit in asthma patients [Flood-Page]. Consequently, in the following trials, patients with refractory eosinophilic asthma were selected and in this subgroup, mepolizumab therapy added significant clinical benefit in patients by reducing exacerbations and improving asthma quality of life scores [Haldar P].
 
 ![fig8](images/Precision-medicine.jpg)
 
