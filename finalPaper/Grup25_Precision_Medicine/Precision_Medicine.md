@@ -21,7 +21,7 @@
 
 ### 1) Definition<a name="11"></a>
 
-Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic, or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy', and 'deep phenotyping'[König et al.].
+Precision medicine is personalized treatment strategies on the basis of genetic, biomarker, phenotypic, or psychosocial characteristics to stratify patients into novel subpopulations that differ in their susceptibility to a particular disease or their response to a specific treatment. It is also commonly referred to as 'stratified medicine', 'targeted therapy', and 'deep phenotyping' [König et al.].
 
 The focus of applied definitions is moving away from the classical 'signs-and-symptoms' approach or 'population' approach into the 'N of 1' approach in which each patient is an entire trial as a single case study from N number of individuals within a population. Figure 1 shows the difference between the two approaches with the same group of patients. A comprehensive study of such subclasses ultimately depends on computational resources to capture, store and exchange phenotypic data and upon sophisticated algorithms to integrate it with genomic variation, omics profiles, and other clinical information [Robinson].
 
