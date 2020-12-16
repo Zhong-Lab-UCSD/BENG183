@@ -139,7 +139,7 @@ After developing diagnostic and prognostic models from the previous step, there 
 
 This process of building prediction models involves generating further knowledge about the disease and treatment from the diagnostics and prognostics models or the data itself. The findings from this process, in the form of data, would be fed back to the phenotyping of patients to further adjust the clinical trial that could more precisely show the effectiveness of the treatment.
 
-In addition to the feedback, dissemination and communication of the taxonomy and models with the clinical and scientific communities, for instance, to provide utilizable algorithms for clinical practices.
+In addition to the feedback, dissemination and communication of the taxonomy and models with the clinical and scientific communities, for instance, to provide utilizable algorithms for clinical practices [König et al.].
 
 ## 4. Evolving Precision Medicine<a name="4"></a>
 
@@ -147,7 +147,7 @@ In addition to the feedback, dissemination and communication of the taxonomy and
 
 ![evol](images/evolving.jpg)
 
-As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnostic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution.
+As seen in the figure, the cycle of patients assessment(deep phenotyping), data processing(preprocessing and data mining), and model building(diagnostic, prognostic, and prediction model building) is repeated at least several times to further increase the preciseness of the medicine by categorizing patient groups at a higher resolution [König et al.].
 
 The detailed steps are as follows:
 
