@@ -75,7 +75,7 @@ Large-scale data is integrated and converted into more precise therapeutic inter
 
 ### 1) Preprocessing and Data Mining<a name="31"></a>
 
-The first step of data analysis is always data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is expected to be filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data shall be performed in this step. Since quality control is always dependent on the specific data type, more details can be found in the paper. [Ferté ]
+The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper. [Ferté ]
 
 Some of the common approaches for data preprocessing includes:
 
@@ -94,36 +94,34 @@ Some of the common approaches for data preprocessing includes:
 
 **Case Example:** *Denoising + Variable selection*
 
-*The collection of deep phenotyping data usually includes a significant amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random "noise" can mask meaningful underlying relationships and structures, which can be shown below.*
+*The collection of deep phenotyping data includes a significant amount of unselected data, which will inevitably include variables that are irrelevant for later modeling. The irrelevant variables that contain random "noise" can mask meaningful underlying relationships and structures, which is shown below.*
 
-Forty-five individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the clustering algorithm fails to find the three groups, as indicated in figure 6c. We can see that about half of the individuals are classified incorrectly.
-
+Forty-five individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the clustering algorithm fails to find the three groups, as indicated in figure 6c. About half of the individuals are classified incorrectly.
 
 ![varsele](https://erj.ersjournals.com/content/erj/50/4/1700391/F3.large.jpg?width=800&height=600&carousel=1)
 
 ##### Figure 6: Impact of variable selection based on illustration
 
-
-Variable selection is important for filtering out noisy data, yet how to define noise or whether a variable is relevant remains unanswerable. One important factor that can guide variable selection is scientifically based a priori knowledge about the possibly **biologically relevant variables**.
-
+Variable selection is important for filtering out noisy data, yet how to define noise or whether a variable is relevant remains unanswerable. One important factor that can guide variable selection is scientifically based a priori knowledge about the possible **biologically relevant variables**.
 
 ### 2) Diagnostic and Prognostic Models<a name="32"></a>
 
 After data is ready from track 1 for further training, models can be developed to estimate the risk with an absolute probability of the presence or absence of an outcome or disease in individuals based on their clinical and non-clinical information. The prediction model can be diagnostic (outcome or disease present at this moment) or prognostic (outcome occurs within a specified time frame). [Hendriksen]
-
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-014-0241-z/MediaObjects/12916_2014_241_Fig1_HTML.gif)
 
 ##### Figure 7: Representation of diagnostic and prognostic prediction modeling studies
 
 - Model Development  
-Two main strategies are usually used to develop the models:
+Two main strategies are used to develop the models:
 	1. **Full Model**  
 	No predictor selection is applied. 
-	Pros: avoid improper predictor selection due to predictor selection bias. Cons: requires much prior knowledge to preselect the biologically relevant predictors for modeling adequately.
+	Pros: avoid improper predictor selection due to predictor selection bias. 
+	Cons: requires much prior knowledge to preselect the biologically relevant predictors for modeling adequately.
 
 	2. **Variable selection**  
-	**Backward Elimination** of 'redundant' predictors or **Forward Selection** of 'promising' ones. The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly context-specific. 
+	**Backward Elimination** of 'redundant' predictors or **Forward Selection** of 'promising' ones. 
+	The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly context-specific. 
 
 - Outcome  
 The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, prediction on death, or absence or presence of leukemia. In the case of the prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
