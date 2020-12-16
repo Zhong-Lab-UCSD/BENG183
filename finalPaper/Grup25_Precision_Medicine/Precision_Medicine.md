@@ -59,15 +59,11 @@ The major problem with the current phenotyping regime is unsystematic or impreci
 
 ### 3) Processing Deep Phenotyping Data<a name="23"></a>
 
-
 Conversion of deep phenotyping data into tangible therapeutic utility poses a number of challenges yet to be solved. First, computational environments for analysis of high dimensional data is required. Second, there must be data from large populations of patients as a knowledge network. The most important, however, is the integration of the two. For example, next-Generation sequencing enables genome-wide investigation of rare genetic variants, but associating these with diseases requires tailored statical tools that summarize the information of neighbored variants. Indeed, the integration of two types of different information is critical in generating the data in a clinically relevant way. To clarify this, the structure of the precision medicine process offers tracks 1-3, which are handling of the data for better prediction of drug sensitivity.
-
-
 
 ## 3. Data Analysis<a name="3"></a>
 
 Large-scale data is integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment. [Afzal]
-
 
 ![fig5](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/8957137/afzal8-2965955-large.gif)
 
@@ -79,7 +75,7 @@ The first step of data analysis is data preprocessing. Studies on fractional exh
 
 Some of the common approaches for data preprocessing includes:
 
-1. ** denoising** and Baseline Correction
+1. **Denoising** and Baseline Correction
 
 2. Missing Value Filling
 
@@ -121,7 +117,7 @@ Two main strategies are used to develop the models:
 
 	2. **Variable selection**  
 	**Backward Elimination** of 'redundant' predictors or **Forward Selection** of 'promising' ones. 
-	The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly context-specific. 
+	The backward procedure is initialized with the full multivariable and then subsequently removes predictors based on a predefined criterion. Forward selection is when predictors are added to the multivariable model one by one. There is no agreement on the optimal method among the two methods. The choice of methods is highly content-specific. 
 
 - Outcome  
 The outcome of a prediction aims to reflect a clinically significant and patient-relevant health state, for example, prediction on death, or absence or presence of leukemia. In the case of the prognostic prediction model, a follow-up period is needed to be clearly defined for outcome development. [Hendriksen]
