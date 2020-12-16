@@ -65,13 +65,13 @@ Conversion of deep phenotyping data into tangible therapeutic utility poses a nu
 
 Large-scale data is integrated and converted into more precise therapeutic interventions. The analysis of deep phenotyping is distinguished into three sequential tracks: in track 1, the data are handled without knowledge of a clinical end-point; in track 2, data are used to build models for a more precise diagnosis or prognosis of disease or disease outcome; and track 3 leads to models that predict more precisely how well specific patients respond to treatment [M. Afzal].
 
-![fig5](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/8957137/afzal8-2965955-large.gif)
+![f5](images/figure5.gif)
 
 ##### Figure 5: An integrated precision medicine framework for heterogeneous data collection, data analysis, knowledge management, and implementation of knowledge and data services.
 
 ### 1) Preprocessing and Data Mining<a name="31"></a>
 
-The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper [Ferté C].
+The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper [Ferté].
 
 Some of the common approaches for data preprocessing includes:
 
@@ -94,7 +94,7 @@ Some of the common approaches for data preprocessing includes:
 
 Forty-five individuals are clustered into three homogeneous subgroups if two variables are considered. A hierarchical cluster analysis using only these two variables identifies three clusters clearly (figure 6b). However, if three random noise variables are added to the dataset, the clustering algorithm fails to find the three groups, as indicated in figure 6c. About half of the individuals are classified incorrectly.
 
-![varsele](https://erj.ersjournals.com/content/erj/50/4/1700391/F3.large.jpg?width=800&height=600&carousel=1)
+![f6](images/figure6.jpg)
 
 ##### Figure 6: The illustration of an impact of variable selection 
 
@@ -104,7 +104,7 @@ Variable selection is important for filtering out noisy data, yet how to define 
 
 After data is ready from track 1 for further training, models can be developed to estimate the risk with an absolute probability of the presence or absence of an outcome or disease in individuals based on their clinical and non-clinical information. The prediction model can be diagnostic (outcome or disease present at this moment) or prognostic (outcome occurs within a specified time frame) [Hendriksen]. 
 
-![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-014-0241-z/MediaObjects/12916_2014_241_Fig1_HTML.gif)
+![f7](images/figure7.png)
 
 ##### Figure 7: Representation of diagnostic and prognostic prediction modeling studies
 
