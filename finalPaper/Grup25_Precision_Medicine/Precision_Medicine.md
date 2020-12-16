@@ -75,7 +75,7 @@ Large-scale data is integrated and converted into more precise therapeutic inter
 
 ### 1) Preprocessing and Data Mining<a name="31"></a>
 
-The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation in patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper. [Ferté ]
+The first step of data analysis is data preprocessing. Studies on fractional exhaled nitric oxide as a marker of eosinophilic inflammation suggests that patients with asthma might be influenced by variable techniques of measurement, sampling procedures, breathing maneuvers, and different types of devices. Therefore, data is filtered and adjusted to be comparable in the analysis. **Quality Control** and **Preprocessing** of the data is performed in this step. Since quality control is dependent on the specific data type, more details can be found in the paper. [Ferté ]
 
 Some of the common approaches for data preprocessing includes:
 
