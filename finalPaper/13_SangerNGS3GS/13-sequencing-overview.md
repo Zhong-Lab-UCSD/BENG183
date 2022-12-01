@@ -73,6 +73,7 @@ This idea also has direct correlation to the results of having high throughput. 
 
 ### 3.2 Illumina Sequencing<a name="5"></a>
 ![Illumina Process](./ngs_1.png)
+
 *Figure 3.2: Illumina next-generation sequencing process.*
 
 Because Illumina’s next-generation sequencing technology has been the most popular option and standard with respect to other next generation sequencing technologies, it will serve as the model to explain how such high throughput is achieved.
