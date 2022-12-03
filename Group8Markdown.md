@@ -30,13 +30,13 @@ Alignment of these raw reads into a reference genome is the first and essential 
 - Protein-DNA interactions mapping (ChIP-Seq)
 - Differentially expressed gene identification (RNA-Seq)
 
-![Figure 1. https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/rna-sequencing/performing-a-rna-seq-experiment/data-analysis/read-mapping-or-alignment/](./genomeAlignment.png){width=90%}
+![Figure 1. https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/rna-sequencing/performing-a-rna-seq-experiment/data-analysis/read-mapping-or-alignment/](./genomeAlignment.png){width=70%}
 
 ##### Examples of Genome Alignment Tools
 
-![Link: https://anaconda.org/bioconda/star](./star.png){width=80%}
+![Link: https://anaconda.org/bioconda/star](./star.png){width=50%}
 
-![Link: https://anaconda.org/bioinfo/tophat2](./tophat.png){width=80%}
+![Link: https://anaconda.org/bioinfo/tophat2](./tophat.png){width=50%}
 
 #### Compare STAR and TopHat
 ##### STAR\
