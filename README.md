@@ -1,5 +1,7 @@
 # BENG183
-Lecture materials
-and other documentation
 
-Fall 2018 
+Fall 2022
+
+Group 13 - Shria Arcot, Siddharth Gaywala, Ryan Truong
+
+Submitted 12/3/2022
