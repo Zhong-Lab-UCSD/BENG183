@@ -1,5 +1,6 @@
 # BENG183
-Lecture materials
-and other documentation
+Fall 2022
 
-Fall 2018 
+Final writeup is in the file ```writeup.md```
+
+Group Members: Garrett Lam, Seshu Mallina, Gordon Ye
