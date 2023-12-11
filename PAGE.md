@@ -29,12 +29,12 @@ To capture the interaction (crosslink between strings), there are few steps in g
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Specificity - What does _one, all, many_ mean<a name="2321"></a>
+#### 1) Native PAGE<a name="2321"></a>
 ‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
 
 These kind of specificity is determined by the primer when people use **specific primers** before PCR. 
 
-#### 2) Through-put and resolution<a name="2322"></a>
+#### 2) SDS PAGE<a name="2322"></a>
 Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
 
 ## 3. Hi-C<a name="233"></a>
