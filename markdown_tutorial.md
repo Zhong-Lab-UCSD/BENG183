@@ -1,6 +1,6 @@
 # Markdown Tutorial
 
-Emily Liang 2018
+2018
 
 ---
 
