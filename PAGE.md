@@ -1,8 +1,8 @@
 # PAGE (Polyacrylamide Gel Electrophoresis) 
 1. [Introduction](#231)
-2. [Overivew of 3C methods](#232)<br>
-    2.1. [Specificity](#2321)<br>
-    2.2. [Through-put and resolution](#2322)
+2. [Native PAGE vs SDS PAGE](#232)<br>
+    2.1. [Native PAGE](#2321)<br>
+    2.2. [SDS PAGE](#2322)
 3. [Hi-C](#233)
 4. [ChIA-PET](#234)
 5. [Selected methods comparison](#235)
@@ -12,7 +12,7 @@
 
 ## 1. Introduction<a name="231"></a>
 
-The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
+Page is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge. Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores. The separation of proteins in PAGE depends on the charge, size, and shape of the molecule. 
 
 To capture the interaction (crosslink between strings), there are few steps in general:
 - Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
@@ -22,7 +22,7 @@ To capture the interaction (crosslink between strings), there are few steps in g
 
 > Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
 
-## 2. Overivew of 3C methods<a name="232"></a>
+## 2. Native PAGE vs SDS PAGE<a name="232"></a>
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
 [Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
