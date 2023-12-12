@@ -4,12 +4,11 @@
 2. [Native PAGE vs SDS PAGE](#232) `<br>`
    2.1. [Native PAGE](#2321) `<br>`
    2.2. [SDS PAGE](#2322)
-3. [Hi-C](#233)
-4. [ChIA-PET](#234)
-5. [Selected methods comparison](#235)
-6. Procedure of SDS
+3. [Procedure of SDS](#235)
+4. [Interpretation](#233)
+5. [Applications](#234)
 
-## 1. Introduction`<a name="231"></a>`
+## 1. Introduction `<a name="231"></a>`
 
 Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge. Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores. The separation of proteins in PAGE depends on the charge, size, and shape of the molecule.
 
@@ -22,110 +21,64 @@ To capture the interaction (crosslink between strings), there are few steps in g
 
 > Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods.
 
-## 2. Native PAGE vs SDS PAGE`<a name="232"></a>`
+## 2. Native PAGE vs SDS PAGE `<a name="232"></a>`
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
 [Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Native PAGE`<a name="2321"></a>`
+#### 1) Native PAGE `<a name="2321"></a>`
 
 ‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
 
 These kind of specificity is determined by the primer when people use **specific primers** before PCR.
 
-#### 2) SDS PAGE`<a name="2322"></a>`
+#### 2) SDS PAGE `<a name="2322"></a>`
 
 ![1702354442303](image/PAGE/1702354442303.png)
 
 The figure above shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape 'size' or 'molecular weight' would be the only paramter. [2].
 
-## 3. Hi-C`<a name="233"></a>`
+## 3. Procedure of SDS `<a name="233"></a>`
 
-Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
-
-The principle of Hi-C can be illustrated as:
-![](/assets/hic.gif)
-
-##### Hi-C critical steps [8]
-
-- Fixation: keep DNA conformed
-- Digestion: enzyme frequency and penetratin
-- Fill-in: biotin for junction enrichment
-- Ligation: freeze interactions in sequence
-- Biotin removal: junctions only
-- Fragment size: small fragments sequence better
-- Adapter ligation: paired-end and indexing
-- PCR: create enough material for flow cell
-
-##### Hi-C derived techniques
-
-- Hi-C original: [Lieberman-Aiden et al., Science 2010](doi: 10.1126/science.1181369)
-- Hi-C 1.0: [Belton-JM et al., Methods 2012](doi: 10.1016/j.ymeth.2012.05.001)
-- In situ Hi-C: [Rao et al., Cell 2014](doi: 10.1016/j.cell.2014.11.021)
-- Single cell Hi-C: [Nagano et al., Genome Biology 2015](https://doi.org/10.1186/s13059-015-0753-7)
-- DNase Hi-C [Ma, Wenxiu, Methods et al](https://www.ncbi.nlm.nih.gov/pubmed/25437436)
-- Hi-C 2.0: [Belaghzal et al., Methods 2017](https://www.ncbi.nlm.nih.gov/pubmed/28435001)
-- DLO-Hi-C: [Lin et al., Nature Genetics 2018](https://doi.org/10.1038/s41588-018-0111-2)
-- Hi-C improving: [Golloshi et al., Methods 2018](https://www.biorxiv.org/content/biorxiv/early/2018/02/13/264515.full.pdf)
-- Arima 1-day Hi-C: [Ghurye et al., BioRxiv 2018](https://www.biorxiv.org/content/early/2018/02/07/261149)
-
-## 4. ChIA-PET`<a name="234"></a>`
-
-ChIA-PET is another method that combines ChIP and pair-end sequencing to analysis the chromtin interaction. It allows for targeted binding factors such as: estrogen receptor alpha, CTCF-mediated loops, RNA polymerase II, and a combination of key architectural factors. on the one hand, it has the benefit of achieving a higher resolution compared to Hi-C, as only ligation products involving the immunoprecipitated molecule are sequenced, on the other hand, ChIA-PET has systematic biases due to ChIP process:
-
-- Only one type of binding factor selected
-- Different antibodies
-- ChIP conditions
-
-## 5. Selected methods comparison`<a name="235"></a>`
+![1702368233069](image/PAGE/1702368233069.png)
 
 <table>
  <tbody>
     <tr>
-        <th>Method</td>
-        <th>Targets</td>
-        <th>Resolution</td>
-        <th>Notes</td>
+        <th>Steps</td>
+        <th>Description</td>
     </tr>
     <tr>
-        <td>3C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0535">[3]</a></td>
-        <td>one-vs-one</td>
-        <td>~1–10 kb<br></td>
+        <td>Sample Preparation <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0535">[3]</a></td>
         <td><ul><li>Sequence of bait locus must be known</li><li>Easy data analysis</li><li>Low throughput</li></ul></td>
     </tr>
     <tr>
-    <td>4C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
-    <td>one-vs-all</td>
-    <td>~2 kb</td>
+    <td>Gel Preparation <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
     <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts</li><li>Long-range contacts</li></ul></td>
     </tr>
     <tr>
-    <td>5C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
-    <td>many-vs-many</td>
-    <td>~1 kb</td>
+    <td>Gel Electroporatisis <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
     <td><ul><li>High dynamic range</li><li>Complete contact map of a locus</li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
 3C</li></ul></td>
     </tr>
     <tr>
-    <td>Hi-C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0300">[6]</a></td>
-    <td>all-vs-all</td>
-    <td>0.1–1 Mb</td>
+    <td>Staining and Visualization <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0300">[6]</a></td>
     <td><ul><li>Genome-wide nucleosome core positioning</li><li>Relative low resolution</li><li>High cost</li></ul></td>
     </tr>
     <tr>
-    <td>ChIA-PET <a href="http://refhub.elsevier.com/S0168-9525(15)00063-3/sbref1405">[7]</a></td>
-    <td>Interaction of whole genome mediated by protein</td>
-    <td>Depends on read depth and the size of the genome region bound by the protein of interest</td>
+    <td>Analysis <a href="http://refhub.elsevier.com/S0168-9525(15)00063-3/sbref1405">[7]</a></td>
     <td><ul><li>Lower noise with ChIP</li><li>Biased method since selected protein</li></ul></td>
     </tr>
  </tbody>
 </table>
 
-# **6. Procedure of SDS `<a name="236"> </a>`**
+# 4. Interpretation `<a name="234"> </a>`
 
-# Referrence
+# 5. Applicaton `<a name="235"> </a>`
+
+Referrence
 
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.`<br>`
 
