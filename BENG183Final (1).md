@@ -87,7 +87,7 @@ RNA sequencing can also be utilized for Gene Fusion Prediction. A gene fusion is
 
 
 [!oncogene](oncogene.png)
-
+^^Click above for image
 
 _An illustration of cancer 2 kinase oncogenes being fused with a 3’ promoter, the phenotypic result being an overexpression of the kinase oncogenes leading to cancer_
 
