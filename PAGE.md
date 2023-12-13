@@ -1,40 +1,68 @@
 # PAGE (Polyacrylamide Gel Electrophoresis)
 
-1. [Introduction](#231)
-2. [Native PAGE vs SDS PAGE](#232) `<br>`
+1. [Introduction](#231) <br>
+   1.1 Charge Density <br>
+   1.2 Size and Shape 
+3. [Native PAGE vs SDS PAGE](#232) `<br>`
    2.1. [Native PAGE](#2321) `<br>`
    2.2. [SDS PAGE](#2322)
-3. [Procedure of SDS](#235)
-4. [Interpretation](#233)
-5. [Applications](#234)
+4. [Procedure of SDS](#235)
+5. [Interpretation](#233)
+6. [Applications](#234)
 
 ## 1. Introduction `<a name="231"></a>`
 
-Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge. Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores. The separation of proteins in PAGE depends on the charge, size, and shape of the molecule.
+Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge. Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores[Figure1]. The separation of proteins in PAGE depends on the:
+- Charge Density (Charge-to-mass ratio)
+- Size and shape 
 
-To capture the interaction (crosslink between strings), there are few steps in general:
+Figure 1
+![Image](pores.png)
 
-- Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
-- Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
-- Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
-- Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
+#### 1) Charge Density  `<a name="2311"></a>`
 
-> Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods.
+Proteins are composed of amino acids. Each of these amino acids carries charge, either positive or negative; some of them has no charge. Thus, because of the charges, proteins carry an overall charge (or net charge). Net charge of a protein depends on pH of its surroundings. 
+
+In electrophoresis, pH of the buffer is set such that all proteins at that pH will carry negative net charge. Being negatively charged, they will migrate to anode (positive electrode). [Figure 2]
+
+- higher charge density migrates faster in the gel (green)
+- lower charge density migrates slower in the gel (blue)
+
+Figure 2
+![Image](demonstration.png)
+
+#### 2) Size and Shape `<a name="2312"></a>`
+
+Size: number of amino acid residues in a protein
+
+- larger in size, slower in migration
+- smaller in size, faster in migration
+
+Shape: 
+
+- globular proteins migrate faster
+- elongated proteins migrate slower 
+
+The extent of cross-linking in the gel and average pore size also affects the migration of proteins of various shapes and sizes. 
 
 ## 2. Native PAGE vs SDS PAGE `<a name="232"></a>`
 
-![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
-[Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
+There are two ways to run PAGE depending on the purpose of the analysis.
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
 #### 1) Native PAGE `<a name="2321"></a>`
 
-‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
-
-These kind of specificity is determined by the primer when people use **specific primers** before PCR.
+In Native PAGE, the disulfide bonds are left intact, preserving the protein’s structure. Thus, the distribution of proteins through the gel is mainly influenced by the protein’s charge and the pH of the separation rather than its size. It allows the analysis of their natural state if we want to analyze bound proteins or complexes. 
 
 #### 2) SDS PAGE `<a name="2322"></a>`
+
+To determine the molecular weights of proteins or whether the given protein is made up of single subunit or multiple subunits, we’ll have to run SDS PAGE. In SDS PAGE, sodium dodecyl sulphate, with heat and sometimes a reducing agent are used to denature proteins before electrophoretic separation. The heat breaks the hydrogen bonds and the reducing agent cleaves disulfide bridges. 
+
+In Figure 3, we have proteins folded with positive and negative charges. Once you add the reducing agent, it cleaves the disulfide bond and unfolds the proteins. SDS with negative charge is then added to negate the charge density in proteins so that the proteins can be separated based on their molecular weight. The linearization of proteins and complex with SDS, as a result, cause the proteins to have similar charge density. 
+
+Figure 3
+![Image](SDS.png)
 
 ![1702354442303](image/PAGE/1702354442303.png)
 
