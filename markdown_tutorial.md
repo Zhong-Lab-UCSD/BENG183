@@ -1,6 +1,6 @@
 # Markdown Tutorial
 
-Michael Wiest 2018
+2018
 
 ---
 
