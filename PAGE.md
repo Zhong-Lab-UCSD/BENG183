@@ -10,7 +10,7 @@
 5. [Interpretation](#233)
 6. [Applications](#234)
 
-## 1. Introduction `<a name="231"></a>`
+## 1. Introduction <a name="231"></a>
 
 Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge. Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores[Figure1]. The separation of proteins in PAGE depends on the:
 - Charge Density (Charge-to-mass ratio)
@@ -19,7 +19,7 @@ Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromole
 Figure 1
 ![Image](pores.png)
 
-#### 1) Charge Density  `<a name="2311"></a>`
+#### 1) Charge Density  <a name="2311"></a>
 
 Proteins are composed of amino acids. Each of these amino acids carries charge, either positive or negative; some of them has no charge. Thus, because of the charges, proteins carry an overall charge (or net charge). Net charge of a protein depends on pH of its surroundings. 
 
@@ -31,7 +31,7 @@ In electrophoresis, pH of the buffer is set such that all proteins at that pH wi
 Figure 2
 ![Image](demonstration.png)
 
-#### 2) Size and Shape `<a name="2312"></a>`
+#### 2) Size and Shape <a name="2312"></a>
 
 Size: number of amino acid residues in a protein
 
@@ -45,17 +45,17 @@ Shape:
 
 The extent of cross-linking in the gel and average pore size also affects the migration of proteins of various shapes and sizes. 
 
-## 2. Native PAGE vs SDS PAGE `<a name="232"></a>`
+## 2. Native PAGE vs SDS PAGE <a name="232"></a>
 
 There are two ways to run PAGE depending on the purpose of the analysis.
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Native PAGE `<a name="2321"></a>`
+#### 1) Native PAGE <a name="2321"></a>
 
 In Native PAGE, the disulfide bonds are left intact, preserving the protein’s structure. Thus, the distribution of proteins through the gel is mainly influenced by the protein’s charge and the pH of the separation rather than its size. It allows the analysis of their natural state if we want to analyze bound proteins or complexes. 
 
-#### 2) SDS PAGE `<a name="2322"></a>`
+#### 2) SDS PAGE <a name="2322"></a>
 
 To determine the molecular weights of proteins or whether the given protein is made up of single subunit or multiple subunits, we’ll have to run SDS PAGE. In SDS PAGE, sodium dodecyl sulphate, with heat and sometimes a reducing agent are used to denature proteins before electrophoretic separation. The heat breaks the hydrogen bonds and the reducing agent cleaves disulfide bridges. 
 
@@ -68,7 +68,7 @@ Figure 3
 
 The figure above shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only paramter. [2].
 
-## 3. Procedure of SDS `<a name="233"></a>`
+## 3. Procedure of SDS <a name="233"></a>
 
 ![1702368233069](image/PAGE/1702368233069.png)
 
@@ -102,9 +102,9 @@ The figure above shows that the protein is composed of two subunits. When the pr
  </tbody>
 </table>
 
-# 4. Interpretation `<a name="234"> </a>`
+# 4. Interpretation <a name="234"> </a>
 
-# 5. Applicaton `<a name="235"> </a>`
+# 5. Applicaton <a name="235"> </a>
 
 Referrence
 
