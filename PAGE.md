@@ -79,24 +79,24 @@ The figure above shows that the protein is composed of two subunits. When the pr
         <th>Description</td>
     </tr>
     <tr>
-        <td>Sample Preparation <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0535">[3]</a></td>
+        <td>Sample Preparation </a></td>
         <td><ul><li>Treat the protein for denaturation with SDS and beta-mercaptoethonol with heat</li><li>Coating of the original charge yields the similar charge, density, shape of the polypeptide chains</li><li>This helps the gel electrophoresis strictly based on the 'molecule weight' and 'size'</li></ul></td>
     </tr>
     <tr>
-    <td>Gel Preparation <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
+    <td>Gel Preparation </a></td>
     <td><ul><li>Requires BIS, acrylamide, and a buffer for the mixture of gel</li><li>This mixture prevent forming the bubble during the Gel electrophoresis process</li><li>Allows the separation of the proteins at the end by creating the gel matrix</li></ul></td>
     </tr>
     <tr>
-    <td>Gel Electrophoresis <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
+    <td>Gel Electrophoresis </a></td>
     <td><ul><li>Protein migration occurs towards negative electrode by the electric current</li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
 </li></ul></td>
     </tr>
     <tr>
-    <td>Staining and Visualization <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0300">[6]</a></td>
+    <td>Staining and Visualization </a></td>
     <td><ul><li>The result of the gel electrophoresis can be detected by using the colored dye</li><li>Separated protein molecule stained in distinct color by tracking dye</li><li>Coomassie Brilliant or Blue or ehtidium bromide , major colored dye used, will be washed out if unbound</li></ul></td>
     </tr>
     <tr>
-    <td>Analysis <a href="http://refhub.elsevier.com/S0168-9525(15)00063-3/sbref1405">[7]</a></td>
+    <td>Analysis </a></td>
     <td><ul><li>Analysis of the protein band's color intensity will proceed by using autoradiography</li><li>Amout of the protein molecule is directly proportional to the color intensity, meaning the amount of the bound dye</li></ul></td>
     </tr>
  </tbody>
@@ -104,8 +104,35 @@ The figure above shows that the protein is composed of two subunits. When the pr
 
 # 4. Interpretation <a name="234"> </a>
 
+   
 # 5. Applicaton <a name="235"> </a>
-
+   There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
+   
+ <table>
+ <tbody>
+    <tr>
+        <th>Applications</td>
+        <th>Description</td>
+    </tr>
+    <tr>
+        <td>Western Blotting </a></td>
+        <td><ul><li>Treat the protein for denaturation with SDS and beta-mercaptoethonol with heat</li><li>Coating of the original charge yields the similar charge, density, shape of the polypeptide chains</li><li>This helps the gel electrophoresis strictly based on the 'molecule weight' and 'size'</li></ul></td>
+    </tr>
+    <tr>
+    <td>Enzyme Zymography </a></td>
+    <td><ul><li>Requires BIS, acrylamide, and a buffer for the mixture of gel</li><li>This mixture prevent forming the bubble during the Gel electrophoresis process</li><li>Allows the separation of the proteins at the end by creating the gel matrix</li></ul></td>
+    </tr>
+    <tr>
+    <td>Extraction for mass spectrometry </a></td>
+    <td><ul><li>Protein migration occurs towards negative electrode by the electric current</li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
+</li></ul></td>
+    </tr>
+    <tr>
+    <td>Electrophoretic mobility shift assay </a></td>
+    <td><ul><li>The result of the gel electrophoresis can be detected by using the colored dye</li><li>Separated protein molecule stained in distinct color by tracking dye</li><li>Coomassie Brilliant or Blue or ehtidium bromide , major colored dye used, will be washed out if unbound</li></ul></td>
+    </tr>
+ </tbody>
+</table>  
 Referrence
 
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.`<br>`
