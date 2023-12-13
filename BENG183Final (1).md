@@ -28,16 +28,9 @@ RNA sequencing has a broad variety of applications however the pipeline is very 
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![fastqc](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/img/fastqc_summary.png)
+![quality](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/img/FastQC_seq_qual.png)
 
 
 _An example of a FastQC report with a summary of the metrics indicating pass and fail along with the quality scores per base sequence_
@@ -56,11 +49,6 @@ This pipeline can be altered a bit, particularly when mapping, depending on the 
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
 
 _Variations to mapping techniques depending on data availability [2]_
 
@@ -73,10 +61,8 @@ Analyzing expression levels is a fundamental and very traditional way of utilizi
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![pipeline](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-016-0881-8/MediaObjects/13059_2016_881_Fig1_HTML.gif?as=webp)
 
-
-![alt_text](images/image4.png "image_tooltip")
 
 
 _An example of an RNA-Seq Differential Expression Pipeline (Vanderbilt Technologies for Advanced Genomics Analysis and Research Design, [www.bioinfo.vanderbilt.edu/vangard/services-rnaseq.html](www.bioinfo.vanderbilt.edu/vangard/services-rnaseq.html)_)
@@ -87,16 +73,12 @@ _An example of an RNA-Seq Differential Expression Pipeline (Vanderbilt Technolog
 An application of RNA-Seq data is for Variant Discovery. RNA-Seq is specifically useful for the identification of SNVs and indel mutations within our genome. The process begins with a nearly identical process in the way we collect our biological samples, sequencing, and data pre-processing step as shown in the “Data Cleanup” section of the pipeline illustrated below[5]. The portions of the pipeline specific to Variant Discovery are the Variant Calling, Variant Filtering, and Variant Annotation process. Variant Calling aids us in identifying which reads contain genotypic variants when compared to our reference genome. It’s important to ensure that we are identifying solely genomic variants and not any transcriptomic variants. Variations to transcription are a result of modifications in the transcription process (such as alternative splicing or changes in gene expression/regulation) and not indicative of changes in the genome that the RNA is being transcribed from. Variant Filtering allows us to filter based on quality, read, depth, allele frequency, etc. to remove low-quality reads. Lastly, we will annotate the variants and predict the functional impact of the variants. RNA-Seq might be advantageous to utilizing DNA for variant detection because RNA-Seq focuses on solely the exome and ensures that all variants found have a direct impact beyond simply regulatory or intronic mutations. 
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
+![variant](https://doc-08-2s-docs.googleusercontent.com/docs/securesc/gg57lcq76s687v74smab97lss06p9ume/6gjh3q5uphlr7ppr8o2tg9hpv2rbqt57/1702493850000/01470915577943174129/05404392234585968919/1yLptERtjtDzx36vqAPZCMJgvbhASdsjq?ax=AEqgLxnRm7Q14WD8vmCFJNfM4xpI6C2HGyF-B8tQVZCX4xMF0ob7aKfPUvUCbTQQjHe1YHpF3cdqwKKPvYoJOjNaRGZb9XzJL2gvwV1m1iqiRAtK2DK9V8cRTPWjKcgjCQnzkYuueaQ34IB34kWZGJanMblrycAcpWeKucdTNQ2PiJZ654fIO4sjZVGRoN5EFWhVObC0meMNvJehv4c1RnzOWiWmRAT58Am6CJEdQrCL5JBDsuNGP_kdLd-2dRzWK5gYe-jM20XUTYF8Cphe9PeIXTle3NoRm9y-hfZR0lvBetU97VczOxBSSnDCMiBf-mjkses9CAw-5UKhjBxyhuWDFYS5YMbdDgZ9RPhbRYd0CY8MmaEeOojROjvYsqq6wzu37ajkAIJERTNhRA9MZ5B4r0RANfnPzlBLQOLydMq7saj5p4L2Ape3b_9_ZJw5sd2xhmz1VPNyUnDbYUFqOtLfhTKgIOJsw52qlPF9DtAi3H1kvsv8X7SLWCbE282lDgFokdFzMvBcf7IheHhvQfLYYpIsmH6HT6QsgNkkxWzAPTa2m1LdYoq9C0sSRN-WXw0wvaJspPxBzj5p_h8WvQAc_C9s0KM9BcB6TTbyjxjTixn0u6g9SBIewXyTo4h1RtDoTB6w2kfJKe8zqyMf7wYOUa3EbRaPMhu5p4GkKEN1w6qIzzwUBdoDt0mfOXfWkzDsTOpxKndLkSNdvsP-tf7RN2unAhTq3IEDu_UZOFx7LTtfTrB9wZYh7SWgKq0O04cb4vgJUIcRRXP83oG9QLlOzas4MpHMbaCguy4cO0wj2MAuRTEsCJ9li0qz8va4y4c90GPWlsX66Z6_f8Uzq_7W5nQQEvapo0dbvhWMx3emI0DUX0cVsTaGtgIm1Z9Yy7KqChS7iTvc4g&uuid=5112c67e-2047-4067-8990-598a29af7cdf&authuser=1&nonce=s43699cprtrlc&user=05404392234585968919&hash=3oovqbfp7i60phio2lfpkvg0sfq85lkd)
 
 
 _An example of a Variant Discovery Pipeline using the GATK platform_
 
-_([https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-variant-discovery-SNPs-Indels-](https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-variant-discovery-SNPs-Indels-) )_
+_([https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-variant-discovery-SNPs-Indels-])_
 
 
 #### **Gene Fusion Prediction**
@@ -104,16 +86,12 @@ _([https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-v
 RNA sequencing can also be utilized for Gene Fusion Prediction. A gene fusion is a type of mutation in which different genes are conjoined, resulting in mutual transcription and translation. The regulatory elements of the genes are no longer distinct and the actual exomes are being controlled with the same regulatory elements. In many cases, this can result in over or under-expression of genes resulting in unintended phenotypic consequences. 
 
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
+[!oncogene](https://www.bcgsc.ca/sites/default/files/styles/full_article/public/2020-12/Gene%20fusion%283%29.png?itok=dgOY8J9q)
 
 
 _An illustration of cancer 2 kinase oncogenes being fused with a 3’ promoter, the phenotypic result being an overexpression of the kinase oncogenes leading to cancer_
 
-_([https://www.clinicallab.com/the-power-of-rna-in-detecting-gene-fusions-for-cancer-diagnostics-27029](https://www.clinicallab.com/the-power-of-rna-in-detecting-gene-fusions-for-cancer-diagnostics-27029))_
+_([https://www.bcgsc.ca/news/whole-genome-and-transcriptome-analysis-enables-robust-detection-cancer-causing-gene-fusions](https://www.clinicallab.com/the-power-of-rna-in-detecting-gene-fusions-for-cancer-diagnostics-27029))_
 
 Similar to Variant Detection, Gene Fusion prediction begins with the same foundational RNA-Seq pipeline that is used for differential gene expression. Upon the completion of the sequencing, filtering, and alignment, we can begin utilizing Fusion Detection algorithms such as STAR-Fusion, TopHat-Fusion, or FusionCatcher. These will look over our aligned reads to identify potential gene fusions that we can then filter, visualize, and annotate to better understand and analyze our results. Once we look at the predicted fusion results, we can validate them using experimental techniques such as Sanger sequencing or targeted RNA-Seq. The fusions we identify are very useful for clinical applications, specifically in cancer diagnosis and treatment, as therapeutic interventions can specifically target these gene fusions. 
 
