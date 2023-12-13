@@ -1,8 +1,8 @@
 # PAGE (Polyacrylamide Gel Electrophoresis)
 
 1. [Introduction](#231) <br>
-   1.1 Charge Density <br>
-   1.2 Size and Shape 
+   1.1 Charge Density (#2311)<br>
+   1.2 Size and Shape (#2312)
 3. [Native PAGE vs SDS PAGE](#232) `<br>`
    2.1. [Native PAGE](#2321) `<br>`
    2.2. [SDS PAGE](#2322)
