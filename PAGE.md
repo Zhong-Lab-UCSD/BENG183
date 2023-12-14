@@ -111,6 +111,9 @@ To begin the interpretation of the PAGE gel, it is important to identify the mar
 
 In the image above, the marker ladder is present in the leftmost lane. Notice how the size of the band decreases as it reaches the bottom of the lane. This is consistent with the gel electrophoresis principle where smaller proteins migrate more rapidly than larger ones. As a result, the smaller size of the protein ends up at the bottom of the lane and the larger protein stays more toward the top of the lane.
 
+Another crucial aspect in interpreting the PAGE gel is the difference in band strengths. The strength of a band directly reflects the quantity of the corresponding protein within the sample
+It provides important information on the relative abundance of specific proteins. The stronger band indicates a higher presence of the corresponding proteins in the sample, while lighter bands suggest lower concentrations of that protein. 
+
 ![Image](gel.png)
 
 # 5. Application <a name="235"> </a>
