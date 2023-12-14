@@ -165,6 +165,8 @@ Referrence
 
 [4] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.`<br>`
 
-[5] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.`<br>`
+[5] How to Interpret Polyacrylamide Gels: The basics - LabXchange. (n.d.). Retrieved December 12, 2023, from https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1.`<br>`
 
-[6] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
+[6] SDS-PAGE - Wikipedia. (n.d.). Retrieved December 12, 2023, from https://en.wikipedia.org/wiki/SDS-PAGE.
+
+[7] Polyacrylamide Gel Electrophoresis, How It Works, Technique Variants and Its Applications | Technology Networks. (n.d.). Retrieved December 12, 2023, from https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100.
