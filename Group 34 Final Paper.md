@@ -1,3 +1,6 @@
+# Detection of Enriched Biological Functions
+Group 34: Maxwell Mracek, Catherine Lian and Melissa Vu
+
 # Background
 The RNA-sequencing technique is used for the quantification and analysis of the gene expression of cells under varying conditions. Part of the RNA-seq pipeline is to conduct differential gene analysis on the mapped sequence reads. The quantification of differentially expressed is done utilizing tools such as DEseq2 and edgeR, which use a negative binomial distribution as their statistical methods. Differentially expressed genes are important to quantify as they will aid in our understanding of the biological functions and pathways affected by the varying conditions. By having a list of the differentially expressed genes, allows us to use gene annotation tools to detect the biological functions and pathways associated with each gene to then draw conclusions on the effects of each condition. Metascape is a popular gene annotation tool that creates useful visualizations of the differentially expressed gene data to aid in drawing accurate conclusions about each treatment.
 
