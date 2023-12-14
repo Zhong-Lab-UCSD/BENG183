@@ -104,6 +104,9 @@ The figure above shows that the protein is composed of two subunits. When the pr
 
 # 4. Interpretation <a name="234"> </a>
 Unlike agarose gel eletrophorsis result which is only visible through UV light, PAGE gel is visible by naked eye through the coomassie brilliant blue stained in polyacrylamide gels. 
+
+To begin the interpretation of the PAGE gel, it is important to identify marker ladder location. Marker ladder typically present most left or right lane of the gel. It is used to assist to determine the protein size that present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample.
+
    
 # 5. Applicaton <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
@@ -133,7 +136,8 @@ Unlike agarose gel eletrophorsis result which is only visible through UV light, 
     </tr>
  </tbody>
 </table>  
-Referrence
+
+# Referrence
 
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
 
