@@ -31,6 +31,7 @@ In electrophoresis, pH of the buffer is set such that all proteins at that pH wi
 - lower charge density migrates slower in the gel (blue)
  
 ![Image](demonstration.png)
+
 Figure 2
 
 #### 2) Size and Shape <a name="2312"></a>
