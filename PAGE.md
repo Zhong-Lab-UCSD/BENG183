@@ -150,8 +150,8 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
 </li></ul></td>
     </tr>
     <tr>
-    <td>Electrophoretic mobility shift assay <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[6]</td>
-    <td><ul><li>The result of the gel electrophoresis can be detected by using the colored dye</li><li>Separated protein molecule stained in distinct color by tracking dye</li><li>Coomassie Brilliant or Blue or ehtidium bromide , major colored dye used, will be washed out if unbound</li></ul></td>
+    <td>Electrophoretic mobility shift assay <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2757439/">[6]</td>
+    <td><ul><li>Electrophoretic mobility shift assay(EMSA) is a technology to identify the nucleic acids within the protein complexes</li><li>Paired with PAGE due to its high performance of separation resolution and stability compared to agroase gel electrophoresis </li><li>SDS-PAGE is regarded as one of the most best tool for EMSA</li></ul></td>
     </tr>
  </tbody>
 </table>  
@@ -163,11 +163,11 @@ Referrence
 
 [3] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.`<br>`
 
-[4] `Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24<br>`
+[4] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
 
-[5] `Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24<br>`
+[5] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
 
-[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.`<br>`
+[6] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.`<br>`
 
 [7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.`<br>`
 
