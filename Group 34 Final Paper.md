@@ -15,6 +15,7 @@ Screenshot of the Metascape input layout.
 After conducting the Metascape analysis, many graphs and visuals should be provided on the website for further analysis. In Figure 1, the top 10 differentially expressed genes will be labeled along with their function. This provides a general overview of which functions are most impacted or utilized during an immune response to the influenza virus. We can utilize this figure to have a quick overview and idea of what is occurring in the cells. The gene with the highest p-value has the function of processing capped intron-containing pre-mRNA. This shows how the cells are undergoing DNA replication to produce proteins as an immune response to the influenza virus.
 
 ![](images/image9.png)
+
 Figure 1. Top Differentially expressed genes with their respective function
 
 Then we can look at Figure 2 that will group together genes with at least one protein interaction into a protein network. This will give a better understanding of how closely related these genes are to certain pathways. For example, according to Figure 2, our genes are mainly affecting pathways related to mRNA processing and transport as the network is mainly colored with red and blue nodes. The mRNA processing and transport pathways being impacted support the idea that the cells are undergoing a lot of DNA replication to produce proteins to fight the influenza virus in an immune response.
