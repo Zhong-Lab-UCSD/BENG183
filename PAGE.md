@@ -12,7 +12,7 @@
 
 ## 1. Introduction <a name="231"></a>
 
-Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge. Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores[Figure1]. The separation of proteins in PAGE depends on the:
+Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge.<td><a href="https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100#D1.">[1] Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores[Figure1]. The separation of proteins in PAGE depends on the:
 - Charge Density (Charge-to-mass ratio)
 - Size and shape 
 
