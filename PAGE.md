@@ -63,10 +63,10 @@ In Figure 3, we have proteins folded with positive and negative charges. Once yo
 
 Figure 3
 ![Image](SDS.png)
-
+Figure 4
 ![1702354442303](image/PAGE/1702354442303.png)
 
-The figure above shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only paramter. [2].
+The figure 4 shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only paramter. [2].
 
 ## 3. Procedure of SDS <a name="233"></a>
 
@@ -133,11 +133,11 @@ Looking at the gel representation in the above image, sample A has three bands a
     </tr>
     <tr>
     <td>Enzyme Zymography <a href="https://pubmed.ncbi.nlm.nih.gov/28608218/">[4]</td>
-    <td><ul><li></li><li>This mixture prevent forming the bubble during the Gel electrophoresis process</li><li>Allows the separation of the proteins at the end by creating the gel matrix</li></ul></td>
+    <td><ul><li>Overcomes challenge of analyzing the protease that traditional Zymography</li><li>Nonreducing SDS-PAGE addresses this limitation without engaging protein substrate</li><li>Having similar trend to Western Blotting, the band from electrophoresis leads to the proteomic analysis interpretation </li></ul></td>
     </tr>
     <tr>
     <td>Extraction for mass spectrometry <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[5] </td>
-    <td><ul><li>Protein migration occurs towards negative electrode by the electric current</li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
+    <td><ul><li></li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
 </li></ul></td>
     </tr>
     <tr>
