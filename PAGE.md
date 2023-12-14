@@ -103,7 +103,7 @@ The figure above shows that the protein is composed of two subunits. When the pr
 </table>
 
 # 4. Interpretation <a name="234"> </a>
-
+Unlike agarose gel eletrophorsis result which is only visible through UV light, PAGE gel is visible by naked eye through the coomassie brilliant blue stained in polyacrylamide gels. 
    
 # 5. Applicaton <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
