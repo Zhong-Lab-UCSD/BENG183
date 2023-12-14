@@ -69,7 +69,7 @@ Figure 4
 
 ![1702354442303](image/PAGE/1702354442303.png)
 
-The figure 4 shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only paramter. [2].
+The figure 4 shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only paramter. 
 
 ## 3. Procedure of SDS <a name="233"></a>
 
@@ -137,38 +137,35 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
         <th>Description</td>
     </tr>
     <tr>
-        <td>Western Blotting <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[3]</td>
+        <td>Western Blotting <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[1]</td>
         <td><ul><li>Used for specific antibody detection by transfering of the protein molecule from gel to memebrane</li><li>Identify significant traits of protein antigents based on its its quanity, molecular weight,and presence</li><li>How effective the antigen could be extract could be measured</li></ul></td>
     </tr>
     <tr>
-    <td>Enzyme Zymography <a href="https://pubmed.ncbi.nlm.nih.gov/28608218/">[4]</td>
+    <td>Enzyme Zymography <a href="https://pubmed.ncbi.nlm.nih.gov/28608218/">[2]</td>
     <td><ul><li>Overcomes challenge of analyzing the protease that traditional Zymography</li><li>Nonreducing SDS-PAGE addresses this limitation without engaging protein substrate</li><li>Having similar trend to Western Blotting, the band from electrophoresis leads to the proteomic analysis interpretation </li></ul></td>
     </tr>
     <tr>
-    <td>Extraction for mass spectrometry <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[5] </td>
+    <td>Extraction for mass spectrometry <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[3] </td>
     <td><ul><li></li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
 </li></ul></td>
     </tr>
     <tr>
-    <td>Electrophoretic mobility shift assay <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2757439/">[6]</td>
+    <td>Electrophoretic mobility shift assay <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2757439/">[4]</td>
     <td><ul><li>Electrophoretic mobility shift assay(EMSA) is a technology to identify the nucleic acids within the protein complexes</li><li>Paired with PAGE due to its high performance of separation resolution and stability compared to agroase gel electrophoresis </li><li>SDS-PAGE is regarded as one of the most best tool for EMSA</li></ul></td>
     </tr>
  </tbody>
 </table>  
 Referrence
 
-[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.`<br>`
 
-[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.`<br>`
+[1] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.`<br>`
 
-[3] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.`<br>`
+[2] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
 
-[4] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
+[3] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
 
-[5] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
+[4] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.`<br>`
 
-[6] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.`<br>`
+[5] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.`<br>`
 
-[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.`<br>`
-
-[8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
+[6] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
