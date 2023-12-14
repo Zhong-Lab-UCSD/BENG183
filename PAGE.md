@@ -12,7 +12,7 @@
 
 ## 1. Introduction <a name="231"></a>
 
-Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility which is the ability of analytes to move towards an electrode of the opposite charge.<a href="https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100#D1.">[1]
+Polyacrylamide Gel Electrophoresis(PAGE) is a technique that separates macromolecules based on their electrophoretic mobility. Electrophoretic mobility is the ability of analytes to move towards an electrode of the opposite charge.<a href="https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100#D1.">[1]
 
 Compared to agarose gel which can also be used for electrophoresis, acrylamide gel is used for smaller molecules like proteins and nucleic acids because it has smaller pores[Figure1]. The separation of proteins in PAGE depends on the:
 - Charge Density (Charge-to-mass ratio)
@@ -23,9 +23,9 @@ Figure 1
 
 #### 1) Charge Density  <a name="2311"></a>
 
-Proteins are composed of amino acids. Each of these amino acids carries charge, either positive or negative; some of them has no charge. Thus, because of the charges, proteins carry an overall charge (or net charge). Net charge of a protein depends on pH of its surroundings. <a href="https://www.youtube.com/watch?v=5obiHqeYEc0">[2]
+Proteins are composed of amino acids. Each of these amino acids carries charge, either positive or negative; some of them has no charge. Because of the charges that amino acids carry, proteins can have an overall charge. The pH of surroundings of the protein also affects the net charge of a protein. <a href="https://www.youtube.com/watch?v=5obiHqeYEc0">[2]
 
-In electrophoresis, pH of the buffer is set such that all proteins at that pH will carry negative net charge. Being negatively charged, they will migrate to anode (positive electrode). [Figure 2]
+In electrophoresis, pH of the buffer is set at a value such that all proteins at that pH will carry negative net charge. Proteins being negatively charged, then will migrate to anode (positive electrode) through electrophoresis. [Figure 2]
 
 - higher charge density migrates faster in the gel (green)
 - lower charge density migrates slower in the gel (blue)
