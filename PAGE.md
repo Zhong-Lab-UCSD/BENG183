@@ -107,8 +107,10 @@ Unlike agarose gel electrophoresis result which is only visible through UV light
 
 To begin the interpretation of the PAGE gel, it is important to identify the marker ladder location. Marker ladders typically present most left or right lane of the gel. It is used to assist in determining the protein size that is present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample. 
 
-![Image](gel.png)
+![Image](gel1.png)
 In the image above, the marker ladder is present in the left most lane. Notice how the size of the band is decreasing as reaching the bottom of the lane. This is consistent with the gel electrophoresis principle where smaller proteins migrate more rapidly than larger ones. As a result, the smaller the size of the protein ends up in the bottom of the lane and larger protein stay more toward the top of the lane.
+
+![Image](gel.png)
 
 # 5. Application <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
