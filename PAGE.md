@@ -145,9 +145,8 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
     <td><ul><li>Overcomes challenge of analyzing the protease that traditional Zymography</li><li>Nonreducing SDS-PAGE addresses this limitation without engaging protein substrate</li><li>Having similar trend to Western Blotting, the band from electrophoresis leads to the proteomic analysis interpretation </li></ul></td>
     </tr>
     <tr>
-    <td>Extraction for mass spectrometry <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[3] </td>
-    <td><ul><li></li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
-</li></ul></td>
+    <td>Extraction for mass spectrometry <a href="https://pubmed.ncbi.nlm.nih.gov/9177686/">[3] </td>
+    <td><ul><li>Analyze the chemical and molecular strucure by measuring the mass to charge ratio  </li><li> Protein bands produced by SDS-PAGE gel are excised</li><li>Destaining, and extraction of the protein follows as the procedure</li></ul></td>
     </tr>
     <tr>
     <td>Electrophoretic mobility shift assay <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2757439/">[4]</td>
@@ -162,7 +161,7 @@ Referrence
 
 [2] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
 
-[3] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
+[3] Cohen, S. L., & Chait, B. T. (1997). Mass spectrometry of whole proteins eluted from sodium dodecyl sulfate-polyacrylamide gel electrophoresis gels. Analytical Biochemistry, 247(2), 257–267. https://doi.org/10.1006/ABIO.1997.2072.`<br>`
 
 [4] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.`<br>`
 
