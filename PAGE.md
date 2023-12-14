@@ -23,7 +23,7 @@ Figure 1
 
 #### 1) Charge Density  <a name="2311"></a>
 
-Proteins are composed of amino acids. Each of these amino acids carries charge, either positive or negative; some of them has no charge. Thus, because of the charges, proteins carry an overall charge (or net charge). Net charge of a protein depends on pH of its surroundings. 
+Proteins are composed of amino acids. Each of these amino acids carries charge, either positive or negative; some of them has no charge. Thus, because of the charges, proteins carry an overall charge (or net charge). Net charge of a protein depends on pH of its surroundings. <a href="https://www.youtube.com/watch?v=5obiHqeYEc0">[8]
 
 In electrophoresis, pH of the buffer is set such that all proteins at that pH will carry negative net charge. Being negatively charged, they will migrate to anode (positive electrode). [Figure 2]
 
@@ -31,7 +31,7 @@ In electrophoresis, pH of the buffer is set such that all proteins at that pH wi
 - lower charge density migrates slower in the gel (blue)
 
 Figure 2 <br>
-![Image](demonstration.png){width=200px}
+![Image](demonstration.png)
 
 #### 2) Size and Shape <a name="2312"></a>
 
@@ -173,3 +173,6 @@ Referrence
 [6] SDS-PAGE - Wikipedia. (n.d.). Retrieved December 12, 2023, from https://en.wikipedia.org/wiki/SDS-PAGE.
 
 [7] Polyacrylamide Gel Electrophoresis, How It Works, Technique Variants and Its Applications | Technology Networks. (n.d.). Retrieved December 12, 2023, from https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100.
+
+[8] “NATIVE PAGE.” YouTube, YouTube, 10 May 2019. Retrieved from December 13, 2023, from
+https://www.youtube.com/watch?v=5obiHqeYEc0.
