@@ -118,7 +118,7 @@ It provides important information on the relative abundance of specific proteins
 
 Looking at the gel representation in the above image, sample A has three bands at 30kDa, 40kDa, and 90kDa. Comparing the band strengths among three bands allows to interpret the relative protein quantities within the sample A. Notably, the 40 kDa protein band has the highest intensity, indicating a high abundance of the protein presented in the sample. Then, there are more 90kDa protein presented in the sample, followed by 30kDa protein being the least presented in the sample A. 
 
-# 5. Application <a name="235"> </a>
+# 5. Applicaton <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
    
  <table>
@@ -128,39 +128,38 @@ Looking at the gel representation in the above image, sample A has three bands a
         <th>Description</td>
     </tr>
     <tr>
-        <td>Western Blotting </a></td>
-        <td><ul><li>Treat the protein for denaturation with SDS and beta-mercaptoethonol with heat</li><li>Coating of the original charge yields the similar charge, density, shape of the polypeptide chains</li><li>This helps the gel electrophoresis strictly based on the 'molecule weight' and 'size'</li></ul></td>
+        <td>Western Blotting <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[3]</td>
+        <td><ul><li>Used for specific antibody detection by transfering of the protein molecule from gel to memebrane</li><li>Identify significant traits of protein antigents based on its its quanity, molecular weight,and presence</li><li>How effective the antigen could be extract could be measured</li></ul></td>
     </tr>
     <tr>
-    <td>Enzyme Zymography </a></td>
-    <td><ul><li>Requires BIS, acrylamide, and a buffer for the mixture of gel</li><li>This mixture prevent forming the bubble during the Gel electrophoresis process</li><li>Allows the separation of the proteins at the end by creating the gel matrix</li></ul></td>
+    <td>Enzyme Zymography <a href="https://pubmed.ncbi.nlm.nih.gov/28608218/">[4]</td>
+    <td><ul><li></li><li>This mixture prevent forming the bubble during the Gel electrophoresis process</li><li>Allows the separation of the proteins at the end by creating the gel matrix</li></ul></td>
     </tr>
     <tr>
-    <td>Extraction for mass spectrometry </a></td>
+    <td>Extraction for mass spectrometry <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[5] </td>
     <td><ul><li>Protein migration occurs towards negative electrode by the electric current</li><li>Different rate of each molecule's migration indicates the molecule weight</li><li>Leads to the separation of protein molecule based on their size</li><li>The voltage strength controls the migration speed
 </li></ul></td>
     </tr>
     <tr>
-    <td>Electrophoretic mobility shift assay </a></td>
+    <td>Electrophoretic mobility shift assay <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[6]</td>
     <td><ul><li>The result of the gel electrophoresis can be detected by using the colored dye</li><li>Separated protein molecule stained in distinct color by tracking dye</li><li>Coomassie Brilliant or Blue or ehtidium bromide , major colored dye used, will be washed out if unbound</li></ul></td>
     </tr>
  </tbody>
 </table>  
+Referrence
 
-# Referrence
+[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.`<br>`
 
-[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
+[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.`<br>`
 
-[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
+[3] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.`<br>`
 
-[3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11.<br>
+[4] `Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24<br>`
 
-[4] Simonis M, Klous P, Homminga I, Galjaard RJ, Rijkers EJ, Grosveld F, et al. High-res- olution identification of balanced and complex chromosomal rearrangements by 4C technology. Nature Methods 2009;6(11):837–42.<br>
+[5] `Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24<br>`
 
-[5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309.<br>
+[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.`<br>`
 
-[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.<br>
-
-[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.<br>
+[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.`<br>`
 
 [8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
