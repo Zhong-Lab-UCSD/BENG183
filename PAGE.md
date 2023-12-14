@@ -160,13 +160,13 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
 Referrence
 
 
-[1] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.`<br>`
+[1] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.
 
-[2] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24.`<br>`
+[2] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24
 
-[3] Cohen, S. L., & Chait, B. T. (1997). Mass spectrometry of whole proteins eluted from sodium dodecyl sulfate-polyacrylamide gel electrophoresis gels. Analytical Biochemistry, 247(2), 257–267. https://doi.org/10.1006/ABIO.1997.2072.`<br>`
+[3] Cohen, S. L., & Chait, B. T. (1997). Mass spectrometry of whole proteins eluted from sodium dodecyl sulfate-polyacrylamide gel electrophoresis gels. Analytical Biochemistry, 247(2), 257–267. https://doi.org/10.1006/ABIO.1997.2072.
 
-[4] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.`<br>`
+[4] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.
 
 [5] How to Interpret Polyacrylamide Gels: The basics - LabXchange. (n.d.). Retrieved December 12, 2023, from https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1.`<br>`
 
