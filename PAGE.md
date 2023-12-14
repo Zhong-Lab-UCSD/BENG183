@@ -56,7 +56,7 @@ To better understand the difference between these methods, I'd like to distingus
 
 #### 1) Native PAGE <a name="2321"></a>
 
-In Native PAGE, the disulfide bonds are undisturbed, preserving the protein’s overall structure. As a reult, the positioning of proteins through the gel is mainly influenced by the protein’s charge and the pH of the separation rather than its size. It allows the analysis of their natural state if we want to analyze bound proteins or complexes. Compared to SDS, Native PAGE do not use reducing agents, heat, and lower voltages which can damage the protein's natural state. <a href="https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100#D1.">[1]
+In Native PAGE, the disulfide bonds are undisturbed, preserving the protein’s overall structure. As a result, the positioning of proteins through the gel is mainly influenced by the protein’s charge and the pH of the separation rather than its size. It allows the analysis of their natural state if we want to analyze bound proteins or complexes. Compared to SDS, Native PAGE do not use reducing agents, heat, and lower voltages which can damage the protein's natural state. <a href="https://www.technologynetworks.com/analysis/articles/polyacrylamide-gel-electrophoresis-how-it-works-technique-variants-and-its-applications-359100#D1.">[1]
 
 #### 2) SDS PAGE <a name="2322"></a>
 
