@@ -50,9 +50,8 @@ The extent of cross-linking in the gel and average pore size also affects the mi
 
 ## 2. Native PAGE vs SDS PAGE <a name="232"></a>
 
-There are two ways to run PAGE depending on the purpose of the analysis.
+There are two ways to run PAGE depending on the purpose of the analysis. PAGE can be run under denaturing or non-denaturing conditions. 
 
-To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
 #### 1) Native PAGE <a name="2321"></a>
 
