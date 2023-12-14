@@ -18,7 +18,7 @@ Compared to agarose gel which can also be used for electrophoresis, acrylamide g
 - Charge Density (Charge-to-mass ratio)
 - Size and shape 
 
-![Image](pores.png)
+![Image](image/pores.png)
 Figure 1
 
 #### 1) Charge Density  <a name="2311"></a>
@@ -30,7 +30,7 @@ In electrophoresis, pH of the buffer is set at a value such that all proteins at
 - higher charge density migrates faster in the gel (green)
 - lower charge density migrates slower in the gel (blue)
  
-![Image](demonstration.png)
+![Image](image/demonstration.png)
 
 Figure 2
 
@@ -63,18 +63,18 @@ To determine the molecular weights of proteins or whether the given protein is m
 
 In Figure 3, we have proteins folded with positive and negative charges. Once you add the reducing agent, it cleaves the disulfide bond and unfolds the proteins. SDS with negative charge is then added to negate the charge density in proteins so that the proteins can be separated based on their molecular weight. The linearization of proteins and complex with SDS, as a result, cause the proteins to have similar charge density. With similar charge density, the proteins are then separated based on different molecular weight. 
 
-![Image](SDS.png)
+![Image](image/SDS.png)
 Figure 3
 
 
-![1702354442303](image/PAGE/1702354442303.png)
+![1702354442303](image/1702354442303.png)
 Figure 4
 
 The figure 4 shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative charge of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only parameter. 
 
 ## 3. Procedure of SDS <a name="233"></a>
 
-![1702368233069](image/PAGE/1702368233069.png)
+![1702368233069](image/1702368233069.png)
 Figure 5
 
 <table>
@@ -110,7 +110,7 @@ Figure 5
 # 4. Interpretation <a name="234"> </a>
 Unlike agarose gel electrophoresis result which is only visible through UV light, PAGE gel is visible by the naked eye through the coomassie brilliant blue stained in polyacrylamide gels. To begin the interpretation of the PAGE gel, it is important to identify the marker ladder location. Marker ladders typically present most left or right lane of the gel. It is used to assist in determining the protein size that is present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample. <a href="https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1">[7]
 
-![Image](gel1.png)
+![Image](image/gel1.png)
 
 Figure 6
 
@@ -119,7 +119,7 @@ In Figure 5, the marker ladder is present in the leftmost lane. Notice how the s
 Another crucial aspect in interpreting the PAGE gel is the difference in band strengths. The strength of a band directly reflects the quantity of the corresponding protein within the sample
 It provides important information on the relative abundance of specific proteins. The stronger band indicates a higher presence of the corresponding proteins in the sample, while lighter bands suggest lower concentrations of that protein. <a href="https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1">[7]
 
-![Image](gel.png)
+![Image](image/gel.png)
 Figure 7
 
 Looking at the gel representation in Figure 6, sample A has three bands at 30kDa, 40kDa, and 90kDa. Comparing the band strengths among three bands allows to interpret the relative protein quantities within the sample A. Notably, the 40 kDa protein band has the highest intensity, indicating a high abundance of the protein presented in the sample. Then, there are more 90kDa protein presented in the sample, followed by 30kDa protein being the least presented in the sample A. 
