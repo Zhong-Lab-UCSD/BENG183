@@ -153,7 +153,8 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
     <td><ul><li>Electrophoretic mobility shift assay(EMSA) is a technology to identify the nucleic acids within the protein complexes</li><li>Paired with PAGE due to its high performance of separation resolution and stability compared to agroase gel electrophoresis </li><li>SDS-PAGE is regarded as one of the most best tool for EMSA</li></ul></td>
     </tr>
  </tbody>
-</table>  
+</table> 
+       
 Referrence
 
 
