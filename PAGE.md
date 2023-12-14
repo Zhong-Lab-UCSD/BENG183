@@ -108,9 +108,7 @@ Figure 5
 </table>
 
 # 4. Interpretation <a name="234"> </a>
-Unlike agarose gel electrophoresis result which is only visible through UV light, PAGE gel is visible by the naked eye through the coomassie brilliant blue stained in polyacrylamide gels. 
-
-To begin the interpretation of the PAGE gel, it is important to identify the marker ladder location. Marker ladders typically present most left or right lane of the gel. It is used to assist in determining the protein size that is present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample. 
+Unlike agarose gel electrophoresis result which is only visible through UV light, PAGE gel is visible by the naked eye through the coomassie brilliant blue stained in polyacrylamide gels. To begin the interpretation of the PAGE gel, it is important to identify the marker ladder location. Marker ladders typically present most left or right lane of the gel. It is used to assist in determining the protein size that is present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample. <a herf="https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1> [7]
 
 ![Image](gel1.png)
 
@@ -119,7 +117,7 @@ Figure 6
 In Figure 5, the marker ladder is present in the leftmost lane. Notice how the size of the band decreases as it reaches the bottom of the lane. This is consistent with the gel electrophoresis principle where smaller proteins migrate more rapidly than larger ones. As a result, the smaller size of the protein ends up at the bottom of the lane and the larger protein stays more toward the top of the lane.
 
 Another crucial aspect in interpreting the PAGE gel is the difference in band strengths. The strength of a band directly reflects the quantity of the corresponding protein within the sample
-It provides important information on the relative abundance of specific proteins. The stronger band indicates a higher presence of the corresponding proteins in the sample, while lighter bands suggest lower concentrations of that protein. 
+It provides important information on the relative abundance of specific proteins. The stronger band indicates a higher presence of the corresponding proteins in the sample, while lighter bands suggest lower concentrations of that protein. <a herf="https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1> [7]
 
 ![Image](gel.png)
 Figure 7
@@ -170,7 +168,3 @@ https://www.youtube.com/watch?v=5obiHqeYEc0.
 [6] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.
 
 [7] How to Interpret Polyacrylamide Gels: The basics - LabXchange. (n.d.). Retrieved December 12, 2023, from https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1.
-
-[8] SDS-PAGE - Wikipedia. (n.d.). Retrieved December 12, 2023, from https://en.wikipedia.org/wiki/SDS-PAGE.
-
-
