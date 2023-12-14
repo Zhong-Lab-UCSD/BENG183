@@ -63,6 +63,7 @@ In Figure 3, we have proteins folded with positive and negative charges. Once yo
 
 Figure 3
 ![Image](SDS.png)
+
 Figure 4
 ![1702354442303](image/PAGE/1702354442303.png)
 
@@ -107,16 +108,18 @@ Unlike agarose gel electrophoresis result which is only visible through UV light
 
 To begin the interpretation of the PAGE gel, it is important to identify the marker ladder location. Marker ladders typically present most left or right lane of the gel. It is used to assist in determining the protein size that is present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample. 
 
+Figure 5
 ![Image](gel1.png)
 
-In the image above, the marker ladder is present in the leftmost lane. Notice how the size of the band decreases as it reaches the bottom of the lane. This is consistent with the gel electrophoresis principle where smaller proteins migrate more rapidly than larger ones. As a result, the smaller size of the protein ends up at the bottom of the lane and the larger protein stays more toward the top of the lane.
+In Figure 5, the marker ladder is present in the leftmost lane. Notice how the size of the band decreases as it reaches the bottom of the lane. This is consistent with the gel electrophoresis principle where smaller proteins migrate more rapidly than larger ones. As a result, the smaller size of the protein ends up at the bottom of the lane and the larger protein stays more toward the top of the lane.
 
 Another crucial aspect in interpreting the PAGE gel is the difference in band strengths. The strength of a band directly reflects the quantity of the corresponding protein within the sample
 It provides important information on the relative abundance of specific proteins. The stronger band indicates a higher presence of the corresponding proteins in the sample, while lighter bands suggest lower concentrations of that protein. 
 
+Figure 6
 ![Image](gel.png)
 
-Looking at the gel representation in the above image, sample A has three bands at 30kDa, 40kDa, and 90kDa. Comparing the band strengths among three bands allows to interpret the relative protein quantities within the sample A. Notably, the 40 kDa protein band has the highest intensity, indicating a high abundance of the protein presented in the sample. Then, there are more 90kDa protein presented in the sample, followed by 30kDa protein being the least presented in the sample A. 
+Looking at the gel representation in Figure 6, sample A has three bands at 30kDa, 40kDa, and 90kDa. Comparing the band strengths among three bands allows to interpret the relative protein quantities within the sample A. Notably, the 40 kDa protein band has the highest intensity, indicating a high abundance of the protein presented in the sample. Then, there are more 90kDa protein presented in the sample, followed by 30kDa protein being the least presented in the sample A. 
 
 # 5. Applicaton <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
