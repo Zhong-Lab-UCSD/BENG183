@@ -161,7 +161,7 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
 [2] “NATIVE PAGE.” YouTube, YouTube, 10 May 2019. Retrieved from December 13, 2023, from
 https://www.youtube.com/watch?v=5obiHqeYEc0.
 
-[3] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.
+[3] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57. https://pubmed.ncbi.nlm.nih.gov/21340897/.
 
 [4] Pan, D., Wilson, K. A., & Tan-Wilson, A. (2017). Transfer Zymography. Methods in Molecular Biology (Clifton, N.J.), 1626, 253–269. https://doi.org/10.1007/978-1-4939-7111-4_24
 
