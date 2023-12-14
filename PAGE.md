@@ -18,8 +18,8 @@ Compared to agarose gel which can also be used for electrophoresis, acrylamide g
 - Charge Density (Charge-to-mass ratio)
 - Size and shape 
 
-Figure 1
 ![Image](pores.png)
+Figure 1
 
 #### 1) Charge Density  <a name="2311"></a>
 
@@ -29,9 +29,9 @@ In electrophoresis, pH of the buffer is set such that all proteins at that pH wi
 
 - higher charge density migrates faster in the gel (green)
 - lower charge density migrates slower in the gel (blue)
-
-Figure 2 <br>
+ 
 ![Image](demonstration.png)
+Figure 2
 
 #### 2) Size and Shape <a name="2312"></a>
 
@@ -63,21 +63,19 @@ To determine the molecular weights of proteins or whether the given protein is m
 
 In Figure 3, we have proteins folded with positive and negative charges. Once you add the reducing agent, it cleaves the disulfide bond and unfolds the proteins. SDS with negative charge is then added to negate the charge density in proteins so that the proteins can be separated based on their molecular weight. The linearization of proteins and complex with SDS, as a result, cause the proteins to have similar charge density. 
 
+![Image](SDS.png)
 Figure 3
 
-![Image](SDS.png)
-
-Figure 4
 
 ![1702354442303](image/PAGE/1702354442303.png)
+Figure 4
 
-The figure 4 shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative chage of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only paramter. 
+The figure 4 shows that the protein is composed of two subunits. When the protein is treated with SDS molecule, its intact structure would get disrupted by attachment to negative charge of SDS. This leads to the protein denaturation and the mask of the original charges of amino acid by the coating. Now, having approximately same charge, density, shape, 'size' or 'molecular weight' would be the only parameter. 
 
 ## 3. Procedure of SDS <a name="233"></a>
 
-Figure 5
-
 ![1702368233069](image/PAGE/1702368233069.png)
+Figure 5
 
 <table>
  <tbody>
@@ -100,7 +98,7 @@ Figure 5
     </tr>
     <tr>
     <td>Staining and Visualization </a></td>
-    <td><ul><li>The result of the gel electrophoresis can be detected by using the colored dye</li><li>Separated protein molecule stained in distinct color by tracking dye</li><li>Coomassie Brilliant or Blue or ehtidium bromide , major colored dye used, will be washed out if unbound</li></ul></td>
+    <td><ul><li>The result of the gel electrophoresis can be detected by using the colored dye</li><li>Separated protein molecule stained in distinct color by tracking dye</li><li>Coomassie Brilliant or Blue or ehtidium bromide, major colored dye used, will be washed out if unbound</li></ul></td>
     </tr>
     <tr>
     <td>Analysis </a></td>
@@ -114,22 +112,20 @@ Unlike agarose gel electrophoresis result which is only visible through UV light
 
 To begin the interpretation of the PAGE gel, it is important to identify the marker ladder location. Marker ladders typically present most left or right lane of the gel. It is used to assist in determining the protein size that is present in the sample. Each band in the marker ladder is labeled with its corresponding size in kilodaltons (kDa), providing a reference to estimate the molecular weights of proteins in the sample. 
 
-Figure 6
-
 ![Image](gel1.png)
+Figure 6
 
 In Figure 5, the marker ladder is present in the leftmost lane. Notice how the size of the band decreases as it reaches the bottom of the lane. This is consistent with the gel electrophoresis principle where smaller proteins migrate more rapidly than larger ones. As a result, the smaller size of the protein ends up at the bottom of the lane and the larger protein stays more toward the top of the lane.
 
 Another crucial aspect in interpreting the PAGE gel is the difference in band strengths. The strength of a band directly reflects the quantity of the corresponding protein within the sample
 It provides important information on the relative abundance of specific proteins. The stronger band indicates a higher presence of the corresponding proteins in the sample, while lighter bands suggest lower concentrations of that protein. 
 
-Figure 7
-
 ![Image](gel.png)
+Figure 7
 
 Looking at the gel representation in Figure 6, sample A has three bands at 30kDa, 40kDa, and 90kDa. Comparing the band strengths among three bands allows to interpret the relative protein quantities within the sample A. Notably, the 40 kDa protein band has the highest intensity, indicating a high abundance of the protein presented in the sample. Then, there are more 90kDa protein presented in the sample, followed by 30kDa protein being the least presented in the sample A. 
 
-# 5. Applicaton <a name="235"> </a>
+# 5. Application on <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
    
  <table>
@@ -140,7 +136,7 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
     </tr>
     <tr>
         <td>Western Blotting <a href="https://pubmed.ncbi.nlm.nih.gov/21340897/">[1]</td>
-        <td><ul><li>Used for specific antibody detection by transfering of the protein molecule from gel to memebrane</li><li>Identify significant traits of protein antigents based on its its quanity, molecular weight,and presence</li><li>How effective the antigen could be extract could be measured</li></ul></td>
+        <td><ul><li>Used for specific antibody detection by transfering of the protein molecule from gel to memebrane</li><li>Identify significant traits of protein antigents based on its quanity, molecular weight, and presence</li><li>How effective the antigen could be extract could be measured</li></ul></td>
     </tr>
     <tr>
     <td>Enzyme Zymography <a href="https://pubmed.ncbi.nlm.nih.gov/28608218/">[2]</td>
@@ -157,8 +153,7 @@ Looking at the gel representation in Figure 6, sample A has three bands at 30kDa
  </tbody>
 </table> 
        
-Referrence
-
+#Reference
 
 [1] Brooks, S. A., Schumacher, U., Blancher, C., & Jones, A. (n.d.). Western Blotting 145 145 SDS-PAGE and Western Blotting Techniques. From: Methods in Molecular Medicine, 57.
 
@@ -168,7 +163,7 @@ Referrence
 
 [4] Hellman, L. M., & Fried, M. G. (n.d.). Electrophoretic Mobility Shift Assay (EMSA) for Detecting Protein-Nucleic Acid Interactions. https://doi.org/10.1038/nprot.2007.249.
 
-[5] How to Interpret Polyacrylamide Gels: The basics - LabXchange. (n.d.). Retrieved December 12, 2023, from https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1.`<br>`
+[5] How to Interpret Polyacrylamide Gels: The basics - LabXchange. (n.d.). Retrieved December 12, 2023, from https://www.labxchange.org/library/items/lb:LabXchange:02a2a79b:html:1.
 
 [6] SDS-PAGE - Wikipedia. (n.d.). Retrieved December 12, 2023, from https://en.wikipedia.org/wiki/SDS-PAGE.
 
