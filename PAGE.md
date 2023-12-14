@@ -127,7 +127,7 @@ Figure 7
 
 Looking at the gel representation in Figure 6, sample A has three bands at 30kDa, 40kDa, and 90kDa. Comparing the band strengths among three bands allows to interpret the relative protein quantities within the sample A. Notably, the 40 kDa protein band has the highest intensity, indicating a high abundance of the protein presented in the sample. Then, there are more 90kDa protein presented in the sample, followed by 30kDa protein being the least presented in the sample A. 
 
-# 5. Application <a name="235"> </a>
+# 5. Applications <a name="235"> </a>
    There are multiple PAGE applications analyzing the protein, including Western Blotting, Enzyme Zymography,Extraction for mass spectrometry, and Electrophoretic mobility shift assay. 
    
  <table>
